@@ -1,0 +1,132 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kwidgetsaddons
+Source: https://projects.kde.org/projects/frameworks/kwidgetsaddons
+
+Files: *
+Copyright: 1996, 1997 Bernd Johannes Wuebben  <wuebben@kde.org>
+ 1997 Michael Roth <mroth@wirlweb.de>
+ 1999 Mario Weilguni <mweilguni@kde.org>
+ 1999 Preston Brown <pbrown@kde.org>
+ 1999 Reginald Stadlbauer <reggie@kde.org>
+ 2000 Carsten Pfeiffer <pfeiffer@kde.org>
+ 2000 David Faure <faure@kde.org>, Alexander Neundorf <neundorf@kde.org>
+ 2001,2002,2003 by Joseph Wenninger <jowenn@kde.org>
+ 2002 Matthias Hölzer-Klüpfel <mhk@kde.org>
+ 2003 Joseph Wenninger <jowenn@kde.org>
+ 2003 Nadeem Hasan <nhasan@kde.org>
+ 2004 Antonio Larrosa <larrosa@kde.org>
+ 2005 Joseph Wenninger <jowenn@kde.org>
+ 2006-2007 Sebastian Trueg <trueg@kde.org>
+ 2006 David Faure <faure@kde.org>
+ 2006 Hamish Rodda <rodda@kde.org>
+ 2006 Simon Hausmann <hausmann@kde.org>
+ 2007-2008 Sebastian Trueg <trueg@kde.org>
+ 2007 Daniel Laidig <d.laidig@gmx.de>
+ 2007 David Jarvie <software@astrojar.org.uk>
+ 2007 Olivier Goffart  <ogoffart at kde.org>
+ 2008 Chusslove Illich <caslav.ilic@gmx.net>
+ 2008 Pino Toscano <pino@kde.org>
+ 2008 Rafael Fernández López <ereslibre@kde.org>
+ 2009 Daniel Calviño Sánchez <danxuliu@gmail.com>
+ 2010 Christoph Feck <christoph@maxiom.de>
+ 2010 Klarälvdalens Datakonsult AB,
+ 2011 John Layt <john@layt.net>
+ 2012 Kevin Ottens <ervin+bluesystems@kde.org>
+ 2013 Albert Astals Cid <aacid@kde.org>
+ 2013 Aurélien Gâteau <agateau@kde.org>
+ 2013 Kevin Ottens <ervin+bluesystems@kde.org>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB. If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+
+Files: autotests/kdualactiontest.cpp
+       src/kpixmapsequenceoverlaypainter.cpp
+       src/kurllabel.cpp
+       src/kpixmapsequence.h
+       src/kpixmapsequencewidget.cpp
+       src/kmessagewidget.h
+       src/kpixmapsequenceoverlaypainter.h
+       src/kmessagewidget.cpp
+       src/kpixmapsequence.cpp
+       src/kdualaction_p.h
+       src/kdualaction.h
+       src/kdualaction.cpp
+       src/kpixmapsequencewidget.h
+       tests/kmessagewidgettest.cpp
+Copyright: 2009,2010 Aurélien Gâteau <agateau@kde.org>
+           2009 Sebastian Trueg <trueg@kde.org>
+           2000 Peter Putzer
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+  
+Files: debian/*
+       tests/kassistantdialogtest.cpp
+       tests/kseparatortest.cpp
+Copyright:2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 
+	  1998  Thomas Tanghus (tanghus@kde.org)
+	  1997  Michael Roth <mroth@wirlweb.de>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: autotests/CMakeLists.txt
+        src/CMakeLists.txt
+        tests/CMakeLists.txt
+        tests/kcharselecttest.cpp
+        tests/kcolorcombotest.h
+        tests/kdatepicktest.cpp
+        tests/kdatetabletest.cpp
+        tests/kdatetimeedittestapp.cpp
+        tests/keditlistwidgettest.cpp
+        tests/kledtest.cpp
+        tests/kledtest.h
+        tests/kmessageboxtest.cpp
+        tests/kpixmapsequenceoverlaypaintertest.cpp
+        tests/kpixmapsequenceoverlaypaintertest.h
+        tests/ksqueezedtextlabeltest.cpp
+Copyright: NONE
+License: NONE
+ These files do not contain any license information.
