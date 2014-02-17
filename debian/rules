@@ -4,7 +4,8 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
-	dh_strip --dbg-package=libkf5widgetsaddons5-dbg
+	$(overridden_command) --dbg-package=libkf5widgetsaddons4-dbg
 
 override_dh_auto_test:
-	xvfb-run -a dh_auto_test
+	xvfb-run -a $(overridden_command)
+

@@ -4,14 +4,14 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, xvfb, xauth, kdelibs5-data
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, xvfb, xauth, kdelibs5-data
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwidgetsaddons
 
 Package: libkf5widgetsaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5widgetsaddons5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5widgetsaddons4 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kwidgetsaddons
  Provided are action classes that can be added to toolbars or menus,
  a wide range of widgets for selecting characters, fonts, colors,
@@ -20,7 +20,7 @@ Description: development files for kwidgetsaddons
  .
  Contains development files for kwidgetsaddons.
  
-Package: libkf5widgetsaddons5
+Package: libkf5widgetsaddons4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -32,12 +32,12 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  dialogs for configuration pages, message boxes, and password requests.
 
 
-Package: libkf5widgetsaddons5-dbg
+Package: libkf5widgetsaddons4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5widgetsaddons5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5widgetsaddons4 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kwidgetsaddons
  Provided are action classes that can be added to toolbars or menus,
  a wide range of widgets for selecting characters, fonts, colors,
