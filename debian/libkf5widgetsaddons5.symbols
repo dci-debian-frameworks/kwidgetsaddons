@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64 i386
-libKF5WidgetsAddons.so.4 libkf5widgetsaddons4 #MINVER#
+libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
  _ZN10KPageModel16staticMetaObjectE@Base 4.96.0
