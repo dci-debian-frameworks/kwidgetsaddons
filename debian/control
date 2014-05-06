@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, xvfb, xauth, kdelibs5-data
+ extra-cmake-modules (>= 0.0.13), qtbase5-dev, xvfb, xauth, kdelibs5-data,
+ qttools5-dev, qttools5-dev-tools, qt5-default
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwidgetsaddons
 
@@ -24,13 +25,25 @@ Package: libkf5widgetsaddons5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkf5widgetsaddons5-data (= ${binary:Version})
 Description: add-on widgets and classes for applications that use the Qt Widgets module
  Provided are action classes that can be added to toolbars or menus,
  a wide range of widgets for selecting characters, fonts, colors,
  actions, dates and times, or MIME types, as well as platform-aware
  dialogs for configuration pages, message boxes, and password requests.
 
+Package: libkf5widgetsaddons5-data
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: add-on widgets and classes for applications that use the Qt Widgets module
+ Provided are action classes that can be added to toolbars or menus,
+ a wide range of widgets for selecting characters, fonts, colors,
+ actions, dates and times, or MIME types, as well as platform-aware
+ dialogs for configuration pages, message boxes, and password requests.
+ .
+ This package contains the translations.
 
 Package: libkf5widgetsaddons5-dbg
 Priority: extra
