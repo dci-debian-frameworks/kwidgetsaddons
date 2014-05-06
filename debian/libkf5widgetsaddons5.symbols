@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -89,7 +89,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KColorComboD1Ev@Base 4.96.0
  _ZN11KColorComboD2Ev@Base 4.96.0
  _ZN11KDatePicker10initWidgetERK5QDate@Base 4.96.0
- _ZN11KDatePicker10setEnabledEb@Base 4.96.0
+ _ZN11KDatePicker11changeEventEP6QEvent@Base 4.99.0
  _ZN11KDatePicker11dateChangedERK5QDate@Base 4.96.0
  _ZN11KDatePicker11dateEnteredERK5QDate@Base 4.96.0
  _ZN11KDatePicker11eventFilterEP7QObjectP6QEvent@Base 4.96.0
