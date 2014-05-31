@@ -1,6 +1,7 @@
 kwidgetsaddons (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Re-add -dev package after a faulty wrap-and-sort. 
+  * Install *.pri files in arch dependent path.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 31 May 2014 15:45:13 +0200
 
