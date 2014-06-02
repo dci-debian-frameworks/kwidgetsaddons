@@ -20,7 +20,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kwidgetsaddons
 Package: libkf5widgetsaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5widgetsaddons5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5widgetsaddons5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: development files for kwidgetsaddons
  Provided are action classes that can be added to toolbars or menus,
  a wide range of widgets for selecting characters, fonts, colors,
