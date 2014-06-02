@@ -88,11 +88,11 @@ License: LGPL-2.1+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
-  
+
 Files: debian/*
        tests/kassistantdialogtest.cpp
        tests/kseparatortest.cpp
-Copyright:2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 
+Copyright:2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 	  1998  Thomas Tanghus (tanghus@kde.org)
 	  1997  Michael Roth <mroth@wirlweb.de>
 License: GPL-2+
