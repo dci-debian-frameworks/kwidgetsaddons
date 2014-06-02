@@ -1,6 +1,11 @@
 kwidgetsaddons (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ José Manuel Santamaría Lema ]
+  * Re-add -dev package after a faulty wrap-and-sort.
+  * Install *.pri files in arch dependent path.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:51 +0100
 
