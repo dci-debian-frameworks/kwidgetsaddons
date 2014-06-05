@@ -43,12 +43,10 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  actions, dates and times, or MIME types, as well as platform-aware
  dialogs for configuration pages, message boxes, and password requests.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5widgetsaddons5-data
 Architecture: all
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: add-on widgets and classes for applications that use the Qt Widgets module
  Provided are action classes that can be added to toolbars or menus,
