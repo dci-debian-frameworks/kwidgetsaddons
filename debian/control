@@ -33,7 +33,7 @@ Description: development files for kwidgetsaddons
 
 Package: libkf5widgetsaddons5
 Architecture: any
-Depends: libkf5widgetsaddons5-data (= ${source:Version}),
+Depends: libkf5widgetsaddons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: add-on widgets and classes for applications that use the Qt Widgets module
@@ -43,10 +43,12 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  dialogs for configuration pages, message boxes, and password requests.
 Multi-Arch: same
 
-Package: libkf5widgetsaddons5-data
+Package: libkf5widgetsaddons-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5widgetsaddons5-data
+Replaces: libkf5widgetsaddons5-data
 Description: add-on widgets and classes for applications that use the Qt Widgets module
  Provided are action classes that can be added to toolbars or menus,
  a wide range of widgets for selecting characters, fonts, colors,
