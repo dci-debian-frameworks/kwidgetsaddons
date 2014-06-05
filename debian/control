@@ -32,7 +32,6 @@ Description: development files for kwidgetsaddons
  Contains development files for kwidgetsaddons.
 
 Package: libkf5widgetsaddons5
-Section: libdevel
 Architecture: any
 Depends: libkf5widgetsaddons5-data (= ${source:Version}),
          ${misc:Depends},
