@@ -111,22 +111,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-Files: autotests/CMakeLists.txt
-        src/CMakeLists.txt
-        tests/CMakeLists.txt
-        tests/kcharselecttest.cpp
-        tests/kcolorcombotest.h
-        tests/kdatepicktest.cpp
-        tests/kdatetabletest.cpp
-        tests/kdatetimeedittestapp.cpp
-        tests/keditlistwidgettest.cpp
-        tests/kledtest.cpp
-        tests/kledtest.h
-        tests/kmessageboxtest.cpp
-        tests/kpixmapsequenceoverlaypaintertest.cpp
-        tests/kpixmapsequenceoverlaypaintertest.h
-        tests/ksqueezedtextlabeltest.cpp
-Copyright: NONE
-License: NONE
- These files do not contain any license information.
