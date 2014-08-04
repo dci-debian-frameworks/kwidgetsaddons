@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -222,6 +222,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KPageDialog12setButtonBoxEP16QDialogButtonBox@Base 4.96.0
  _ZN11KPageDialog13setPageWidgetEP11KPageWidget@Base 4.96.0
  _ZN11KPageDialog14setCurrentPageEP15KPageWidgetItem@Base 4.96.0
+ _ZN11KPageDialog15addActionButtonEP15QAbstractButton@Base 5.1.0
  _ZN11KPageDialog16staticMetaObjectE@Base 4.96.0
  _ZN11KPageDialog18currentPageChangedEP15KPageWidgetItemS1_@Base 4.96.0
  _ZN11KPageDialog18setStandardButtonsE6QFlagsIN16QDialogButtonBox14StandardButtonEE@Base 4.96.0

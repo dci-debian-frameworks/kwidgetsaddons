@@ -6,6 +6,7 @@ kwidgetsaddons (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
+  * Patched symbols with batchpatch. 
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 19:03:31 -0700
 
