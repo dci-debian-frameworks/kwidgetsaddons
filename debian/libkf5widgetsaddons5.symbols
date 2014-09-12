@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -606,6 +606,18 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN13KToggleActionD0Ev@Base 4.96.0
  _ZN13KToggleActionD1Ev@Base 4.96.0
  _ZN13KToggleActionD2Ev@Base 4.96.0
+ _ZN14KColumnResizer11eventFilterEP7QObjectP6QEvent@Base 5.2.0
+ _ZN14KColumnResizer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0
+ _ZN14KColumnResizer11qt_metacastEPKc@Base 5.2.0
+ _ZN14KColumnResizer12removeWidgetEP7QWidget@Base 5.2.0
+ _ZN14KColumnResizer16staticMetaObjectE@Base 5.2.0
+ _ZN14KColumnResizer20addWidgetsFromLayoutEP7QLayouti@Base 5.2.0
+ _ZN14KColumnResizer9addWidgetEP7QWidget@Base 5.2.0
+ _ZN14KColumnResizerC1EP7QObject@Base 5.2.0
+ _ZN14KColumnResizerC2EP7QObject@Base 5.2.0
+ _ZN14KColumnResizerD0Ev@Base 5.2.0
+ _ZN14KColumnResizerD1Ev@Base 5.2.0
+ _ZN14KColumnResizerD2Ev@Base 5.2.0
  _ZN14KFontRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN14KFontRequester11qt_metacastEPKc@Base 4.96.0
  _ZN14KFontRequester12fontSelectedERK5QFont@Base 4.96.0
@@ -1463,6 +1475,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK13KTimeComboBox7optionsEv@Base 4.96.0
  _ZNK13KTimeComboBox8timeListEv@Base 4.96.0
  _ZNK13KToggleAction10metaObjectEv@Base 4.96.0
+ _ZNK14KColumnResizer10metaObjectEv@Base 5.2.0
  _ZNK14KFontRequester10metaObjectEv@Base 4.96.0
  _ZNK14KFontRequester10sampleTextEv@Base 4.96.0
  _ZNK14KFontRequester11isFixedOnlyEv@Base 4.96.0
@@ -1710,6 +1723,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI13KSelectAction@Base 4.96.0
  _ZTI13KTimeComboBox@Base 4.96.0
  _ZTI13KToggleAction@Base 4.96.0
+ _ZTI14KColumnResizer@Base 5.2.0
  _ZTI14KFontRequester@Base 4.96.0
  _ZTI14KMessageWidget@Base 4.96.0
  _ZTI15KActionSelector@Base 4.96.0
@@ -1769,6 +1783,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS13KSelectAction@Base 4.96.0
  _ZTS13KTimeComboBox@Base 4.96.0
  _ZTS13KToggleAction@Base 4.96.0
+ _ZTS14KColumnResizer@Base 5.2.0
  _ZTS14KFontRequester@Base 4.96.0
  _ZTS14KMessageWidget@Base 4.96.0
  _ZTS15KActionSelector@Base 4.96.0
@@ -1828,6 +1843,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV13KSelectAction@Base 4.96.0
  _ZTV13KTimeComboBox@Base 4.96.0
  _ZTV13KToggleAction@Base 4.96.0
+ _ZTV14KColumnResizer@Base 5.2.0
  _ZTV14KFontRequester@Base 4.96.0
  _ZTV14KMessageWidget@Base 4.96.0
  _ZTV15KActionSelector@Base 4.96.0
