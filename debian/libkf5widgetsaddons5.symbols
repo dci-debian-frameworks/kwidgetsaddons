@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141027.0844 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -767,6 +767,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KFontSizeActionD0Ev@Base 4.96.0
  _ZN15KFontSizeActionD1Ev@Base 4.96.0
  _ZN15KFontSizeActionD2Ev@Base 4.96.0
+ _ZN15KMimeTypeEditor12editMimeTypeERK7QStringP7QWidget@Base 5.3.0+git20141027.0844
  _ZN15KMultiTabBarTab10paintEventEP11QPaintEvent@Base 4.96.0
  _ZN15KMultiTabBarTab11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN15KMultiTabBarTab11qt_metacastEPKc@Base 4.96.0
