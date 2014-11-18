@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141027.0844 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0+git20141117.0007 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -668,7 +668,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN14KRatingPainter18setLayoutDirectionEN2Qt15LayoutDirectionE@Base 4.96.0
  _ZN14KRatingPainter19setHalfStepsEnabledEb@Base 4.96.0
  _ZN14KRatingPainter21getRatingFromPositionERK5QRect6QFlagsIN2Qt13AlignmentFlagEENS4_15LayoutDirectionERK6QPoint@Base 4.96.0
- _ZN14KRatingPainter7Private9getPixmapEi@Base 4.96.0
+ _ZN14KRatingPainter7Private9getPixmapEiN5QIcon5StateE@Base 5.4.0+git20141117.0007
  _ZN14KRatingPainter7setIconERK5QIcon@Base 4.96.0
  _ZN14KRatingPainterC1Ev@Base 4.96.0
  _ZN14KRatingPainterC2Ev@Base 4.96.0
