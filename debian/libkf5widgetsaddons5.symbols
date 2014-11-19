@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141117.0007 i386
+# SymbolsHelper-Confirmed: 5.4.0+git20141119.0013+15.04 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -1091,6 +1091,30 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN24KDragWidgetDecoratorBaseD0Ev@Base 4.96.0
  _ZN24KDragWidgetDecoratorBaseD1Ev@Base 4.96.0
  _ZN24KDragWidgetDecoratorBaseD2Ev@Base 4.96.0
+ _ZN24KSplitterCollapserButton10enterEventEP6QEvent@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton10leaveEventEP6QEvent@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton10paintEventEP11QPaintEvent@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton11eventFilterEP7QObjectP6QEvent@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton11qt_metacastEPKc@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton11slotClickedEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton12setCollapsedEb@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton16staticMetaObjectE@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7Private11updateArrowEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7Private13startTimeLineEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7Private13updateOpacityEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7Private14updatePositionEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7Private17widgetEventFilterEP6QEvent@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7PrivateC1EPS_@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7PrivateC2EPS_@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton7restoreEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton8collapseEv@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButton9showEventEP10QShowEvent@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButtonC1EP7QWidgetP9QSplitter@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButtonC2EP7QWidgetP9QSplitter@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButtonD0Ev@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButtonD1Ev@Base 5.4.0+git20141119.0013+15.04
+ _ZN24KSplitterCollapserButtonD2Ev@Base 5.4.0+git20141119.0013+15.04
  _ZN24KViewStateMaintainerBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN24KViewStateMaintainerBase11qt_metacastEPKc@Base 4.96.0
  _ZN24KViewStateMaintainerBase16staticMetaObjectE@Base 4.96.0
@@ -1628,6 +1652,11 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK24KDragWidgetDecoratorBase10metaObjectEv@Base 4.96.0
  _ZNK24KDragWidgetDecoratorBase13isDragEnabledEv@Base 4.96.0
  _ZNK24KDragWidgetDecoratorBase15decoratedWidgetEv@Base 4.96.0
+ _ZNK24KSplitterCollapserButton10metaObjectEv@Base 5.4.0+git20141119.0013+15.04
+ _ZNK24KSplitterCollapserButton17isWidgetCollapsedEv@Base 5.4.0+git20141119.0013+15.04
+ _ZNK24KSplitterCollapserButton7Private10isVerticalEv@Base 5.4.0+git20141119.0013+15.04
+ _ZNK24KSplitterCollapserButton7Private17isWidgetCollapsedEv@Base 5.4.0+git20141119.0013+15.04
+ _ZNK24KSplitterCollapserButton8sizeHintEv@Base 5.4.0+git20141119.0013+15.04
  _ZNK24KViewStateMaintainerBase10metaObjectEv@Base 4.96.0
  _ZNK24KViewStateMaintainerBase14selectionModelEv@Base 4.96.0
  _ZNK24KViewStateMaintainerBase4viewEv@Base 4.96.0
@@ -1749,6 +1778,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI22KMimeTypeChooserDialog@Base 4.96.0
  _ZTI23KToggleFullScreenAction@Base 4.96.0
  _ZTI24KDragWidgetDecoratorBase@Base 4.96.0
+ _ZTI24KSplitterCollapserButton@Base 5.4.0+git20141119.0013+15.04
  _ZTI24KViewStateMaintainerBase@Base 4.96.0
  _ZTI26LineEditUrlDropEventFilter@Base 4.96.0
  _ZTI27KPixmapRegionSelectorDialog@Base 4.96.0
@@ -1809,6 +1839,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS22KMimeTypeChooserDialog@Base 4.96.0
  _ZTS23KToggleFullScreenAction@Base 4.96.0
  _ZTS24KDragWidgetDecoratorBase@Base 4.96.0
+ _ZTS24KSplitterCollapserButton@Base 5.4.0+git20141119.0013+15.04
  _ZTS24KViewStateMaintainerBase@Base 4.96.0
  _ZTS26LineEditUrlDropEventFilter@Base 4.96.0
  _ZTS27KPixmapRegionSelectorDialog@Base 4.96.0
@@ -1869,6 +1900,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV22KMimeTypeChooserDialog@Base 4.96.0
  _ZTV23KToggleFullScreenAction@Base 4.96.0
  _ZTV24KDragWidgetDecoratorBase@Base 4.96.0
+ _ZTV24KSplitterCollapserButton@Base 5.4.0+git20141119.0013+15.04
  _ZTV24KViewStateMaintainerBase@Base 4.96.0
  _ZTV26LineEditUrlDropEventFilter@Base 4.96.0
  _ZTV27KPixmapRegionSelectorDialog@Base 4.96.0
@@ -1919,6 +1951,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  (c++)"non-virtual thunk to KRuler::~KRuler()@Base" 4.96.0
  (c++)"non-virtual thunk to KSelector::~KSelector()@Base" 4.96.0
  (c++)"non-virtual thunk to KSeparator::~KSeparator()@Base" 4.96.0
+ (c++)"non-virtual thunk to KSplitterCollapserButton::~KSplitterCollapserButton()@Base" 5.4.0+git20141119.0013+15.04
  (c++)"non-virtual thunk to KSqueezedTextLabel::~KSqueezedTextLabel()@Base" 4.96.0
  (c++)"non-virtual thunk to KTimeComboBox::~KTimeComboBox()@Base" 4.96.0
  (c++)"non-virtual thunk to KTitleWidget::~KTitleWidget()@Base" 4.96.0
