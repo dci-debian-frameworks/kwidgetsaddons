@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141119.0013+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.5.0+git20141217.1552+15.04 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -918,6 +918,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN16KStandardGuiItem9adminModeEv@Base 4.96.0
  _ZN16KStandardGuiItem9configureEv@Base 4.96.0
  _ZN16KStandardGuiItem9overwriteEv@Base 4.96.0
+ _ZN16KStyleExtensions15customStyleHintERK7QStringPK7QWidget@Base 5.5.0+git20141217.1552+15.04
+ _ZN16KStyleExtensions16customSubElementERK7QStringPK7QWidget@Base 5.5.0+git20141217.1552+15.04
+ _ZN16KStyleExtensions20customControlElementERK7QStringPK7QWidget@Base 5.5.0+git20141217.1552+15.04
  _ZN17KGradientSelector11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN17KGradientSelector11qt_metacastEPKc@Base 4.96.0
  _ZN17KGradientSelector12drawContentsEP8QPainter@Base 4.96.0
