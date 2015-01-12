@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0+git20150110.0009+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0+git20150112.0023+15.04 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -1204,6 +1204,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN4KLed13setDarkFactorEi@Base 4.96.0
  _ZN4KLed16staticMetaObjectE@Base 4.96.0
  _ZN4KLed18updateCachedPixmapEv@Base 4.96.0
+ _ZN4KLed20updateAccessibleNameEv@Base 5.6.0+git20150112.0023+15.04
  _ZN4KLed2onEv@Base 4.96.0
  _ZN4KLed3offEv@Base 4.96.0
  _ZN4KLed6toggleEv@Base 4.96.0
