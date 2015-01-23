@@ -13,7 +13,7 @@ Build-Depends: cmake,
                qttools5-dev-tools,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kwidgetsaddons
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kwidgetsaddons.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kwidgetsaddons.git
