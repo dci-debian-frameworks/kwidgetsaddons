@@ -1,8 +1,8 @@
-kwidgetsaddons (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kwidgetsaddons (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 11:08:10 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:30:35 +0200
 
 kwidgetsaddons (5.8.0-0ubuntu1) vivid; urgency=medium
 
