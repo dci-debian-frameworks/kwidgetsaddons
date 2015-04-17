@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0+git20150112.0023+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.8.0 armel armhf hurd-i386 kfreebsd-i386 mips mipsel powerpc
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -1734,7 +1734,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK9KUrlLabel7tipTextEv@Base 4.96.0
  _ZNK9KUrlLabel7useTipsEv@Base 4.96.0
  _ZNK9KUrlLabel9useCursorEv@Base 4.96.0
- (optional=templinst|arch=i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 4.96.0
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 4.96.0
  _ZTI10KPageModel@Base 4.96.0
  _ZTI10KSeparator@Base 4.96.0
  _ZTI11KActionMenu@Base 4.96.0
