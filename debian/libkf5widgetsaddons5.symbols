@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 armel armhf hurd-i386 kfreebsd-i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.9.0 arm64 hppa kfreebsd-amd64 ppc64 ppc64el s390x
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
