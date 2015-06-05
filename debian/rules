@@ -6,5 +6,3 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5widgetsaddons5-dbg
 
-override_dh_auto_test:
-	xvfb-run -s '-screen 0 800x600x24' -a $(overridden_command)
