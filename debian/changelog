@@ -5,7 +5,7 @@ kwidgetsaddons (5.11.0-1) unstable; urgency=medium
   * Update symbols files from buildds logs (5.9.0-1).
   * New upstream release (5.11.0).
 
--- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 15:32:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 15:32:52 +0200
 
 kwidgetsaddons (5.10.0-0ubuntu1) wily; urgency=medium
 
