@@ -1,8 +1,8 @@
-kwidgetsaddons (5.11.0-2~) UNRELEASED; urgency=medium
+kwidgetsaddons (5.11.0-2) unstable; urgency=medium
 
   * Disable the unittests in arm. (Closes: #790080)
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jul 2015 10:10:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jul 2015 10:36:33 +0200
 
 kwidgetsaddons (5.11.0-1) unstable; urgency=medium
 
