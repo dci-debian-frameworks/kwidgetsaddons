@@ -1,8 +1,8 @@
-kwidgetsaddons (5.12.0-1~) UNRELEASED; urgency=medium
+kwidgetsaddons (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 17:36:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:42:48 +0200
 
 kwidgetsaddons (5.11.0-2) unstable; urgency=medium
 
