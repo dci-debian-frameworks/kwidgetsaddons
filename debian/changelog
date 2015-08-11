@@ -1,10 +1,10 @@
-kwidgetsaddons (5.12.0-2) UNRELEASED; urgency=medium
+kwidgetsaddons (5.12.0-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Update symbols files with buildds' logs.
   * Update symbols files with current build log against gcc5.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Aug 2015 16:02:27 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 11 Aug 2015 16:12:08 -0300
 
 kwidgetsaddons (5.12.0-1) unstable; urgency=medium
 
