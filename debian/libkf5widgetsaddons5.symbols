@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 arm64 hppa kfreebsd-amd64 ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.12.0 amd64 arm64 hppa kfreebsd-amd64 ppc64 ppc64el s390x x32
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -18,9 +18,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KSeparatorC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
  _ZN10KSeparatorC2EN2Qt11OrientationEP7QWidget6QFlagsINS0_10WindowTypeEE@Base 4.96.0
  _ZN10KSeparatorC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
- _ZN10KSeparatorD0Ev@Base 4.96.0
- _ZN10KSeparatorD1Ev@Base 4.96.0
- _ZN10KSeparatorD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!amd64)_ZN10KSeparatorD0Ev@Base 5.12.0
+ (optional=gccinternal|arch=!amd64)_ZN10KSeparatorD1Ev@Base 5.12.0
+ (optional=gccinternal|arch=!amd64)_ZN10KSeparatorD2Ev@Base 5.12.0
  _ZN11KActionMenu10setDelayedEb@Base 4.96.0
  _ZN11KActionMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KActionMenu11qt_metacastEPKc@Base 4.96.0
@@ -1954,7 +1954,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  (c++)"non-virtual thunk to KRatingWidget::~KRatingWidget()@Base" 4.96.0
  (c++)"non-virtual thunk to KRuler::~KRuler()@Base" 4.96.0
  (c++)"non-virtual thunk to KSelector::~KSelector()@Base" 4.96.0
- (c++)"non-virtual thunk to KSeparator::~KSeparator()@Base" 4.96.0
+ (c++|arch=!amd64)"non-virtual thunk to KSeparator::~KSeparator()@Base" 5.12.0
  (c++)"non-virtual thunk to KSplitterCollapserButton::~KSplitterCollapserButton()@Base" 5.4.0+git20141119.0013+15.04
  (c++)"non-virtual thunk to KSqueezedTextLabel::~KSqueezedTextLabel()@Base" 4.96.0
  (c++)"non-virtual thunk to KTimeComboBox::~KTimeComboBox()@Base" 4.96.0
