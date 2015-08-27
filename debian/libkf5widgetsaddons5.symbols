@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.13.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -50,7 +50,8 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KCharSelect14setCurrentFontERK5QFont@Base 4.96.0
  _ZN11KCharSelect16staticMetaObjectE@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate10_k_forwardEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate10historyAddERK5QCharbRK7QString@Base 4.96.0
+ _ZN11KCharSelect18KCharSelectPrivate10historyAddE5QCharbRK7QString@Base 5.13.0
+ (optional=private)_ZN11KCharSelect18KCharSelectPrivate10historyAddERK5QCharbRK7QString@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate11createLinksE7QString@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate14_k_linkClickedE4QUrl@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate15_k_fontSelectedEv@Base 4.96.0
@@ -58,8 +59,10 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KCharSelect18KCharSelectPrivate16_k_blockSelectedEi@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate18_k_sectionSelectedEi@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate20_k_searchEditChangedEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeERK5QChar@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharERK5QChar@Base 4.96.0
+ _ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeE5QChar@Base 5.13.0
+ (optional=private)_ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeERK5QChar@Base 4.96.0
+ _ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharE5QChar@Base 5.13.0
+ (optional=private)_ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharERK5QChar@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate21_k_activateSearchLineEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate24updateBackForwardButtonsEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate7_k_backEv@Base 4.96.0
@@ -379,12 +382,14 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KMultiTabBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KMultiTabBar11qt_metacastEPKc@Base 4.96.0
  _ZN12KMultiTabBar11setPositionENS_20KMultiTabBarPositionE@Base 4.96.0
+ _ZN12KMultiTabBar12appendButtonERK5QIconiP5QMenuRK7QString@Base 5.13.0
  _ZN12KMultiTabBar12appendButtonERK7QPixmapiP5QMenuRK7QString@Base 4.96.0
  _ZN12KMultiTabBar12removeButtonEi@Base 4.96.0
  _ZN12KMultiTabBar15updateSeparatorEv@Base 4.96.0
  _ZN12KMultiTabBar16staticMetaObjectE@Base 4.96.0
  _ZN12KMultiTabBar6setTabEib@Base 4.96.0
  _ZN12KMultiTabBar8setStyleENS_17KMultiTabBarStyleE@Base 4.96.0
+ _ZN12KMultiTabBar9appendTabERK5QIconiRK7QString@Base 5.13.0
  _ZN12KMultiTabBar9appendTabERK7QPixmapiRK7QString@Base 4.96.0
  _ZN12KMultiTabBar9removeTabEi@Base 4.96.0
  _ZN12KMultiTabBarC1ENS_20KMultiTabBarPositionEP7QWidget@Base 4.96.0
@@ -778,7 +783,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KMultiTabBarTab7setIconERK7QString@Base 4.96.0
  _ZN15KMultiTabBarTab8setStateEb@Base 4.96.0
  _ZN15KMultiTabBarTab8setStyleEN12KMultiTabBar17KMultiTabBarStyleE@Base 4.96.0
+ _ZN15KMultiTabBarTabC1ERK5QIconRK7QStringiP7QWidgetN12KMultiTabBar20KMultiTabBarPositionENS8_17KMultiTabBarStyleE@Base 5.13.0
  _ZN15KMultiTabBarTabC1ERK7QPixmapRK7QStringiP7QWidgetN12KMultiTabBar20KMultiTabBarPositionENS8_17KMultiTabBarStyleE@Base 4.96.0
+ _ZN15KMultiTabBarTabC2ERK5QIconRK7QStringiP7QWidgetN12KMultiTabBar20KMultiTabBarPositionENS8_17KMultiTabBarStyleE@Base 5.13.0
  _ZN15KMultiTabBarTabC2ERK7QPixmapRK7QStringiP7QWidgetN12KMultiTabBar20KMultiTabBarPositionENS8_17KMultiTabBarStyleE@Base 4.96.0
  _ZN15KMultiTabBarTabD0Ev@Base 4.96.0
  _ZN15KMultiTabBarTabD1Ev@Base 4.96.0
@@ -949,7 +956,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KMultiTabBarButton7setTextERK7QString@Base 4.96.0
  _ZN18KMultiTabBarButton9hideEventEP10QHideEvent@Base 4.96.0
  _ZN18KMultiTabBarButton9showEventEP10QShowEvent@Base 4.96.0
+ _ZN18KMultiTabBarButtonC1ERK5QIconRK7QStringiP7QWidget@Base 5.13.0
  _ZN18KMultiTabBarButtonC1ERK7QPixmapRK7QStringiP7QWidget@Base 4.96.0
+ _ZN18KMultiTabBarButtonC2ERK5QIconRK7QStringiP7QWidget@Base 5.13.0
  _ZN18KMultiTabBarButtonC2ERK7QPixmapRK7QStringiP7QWidget@Base 4.96.0
  _ZN18KMultiTabBarButtonD0Ev@Base 4.96.0
  _ZN18KMultiTabBarButtonD1Ev@Base 4.96.0
