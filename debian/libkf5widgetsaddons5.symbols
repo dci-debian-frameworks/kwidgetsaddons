@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.12.0 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -18,9 +18,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KSeparatorC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
  _ZN10KSeparatorC2EN2Qt11OrientationEP7QWidget6QFlagsINS0_10WindowTypeEE@Base 4.96.0
  _ZN10KSeparatorC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x)_ZN10KSeparatorD0Ev@Base 5.12.0
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x)_ZN10KSeparatorD1Ev@Base 5.12.0
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x)_ZN10KSeparatorD2Ev@Base 5.12.0
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x)_ZN10KSeparatorD0Ev@Base 5.12.0
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x)_ZN10KSeparatorD1Ev@Base 5.12.0
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x)_ZN10KSeparatorD2Ev@Base 5.12.0
  _ZN11KActionMenu10setDelayedEb@Base 4.96.0
  _ZN11KActionMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KActionMenu11qt_metacastEPKc@Base 4.96.0
@@ -1734,7 +1734,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK9KUrlLabel7tipTextEv@Base 4.96.0
  _ZNK9KUrlLabel7useTipsEv@Base 4.96.0
  _ZNK9KUrlLabel9useCursorEv@Base 4.96.0
- (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.12.0
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.12.0
  _ZTI10KPageModel@Base 4.96.0
  _ZTI10KSeparator@Base 4.96.0
  _ZTI11KActionMenu@Base 4.96.0
