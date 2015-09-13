@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -51,7 +51,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KCharSelect16staticMetaObjectE@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate10_k_forwardEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate10historyAddE5QCharbRK7QString@Base 5.13.0
- (optional=private)_ZN11KCharSelect18KCharSelectPrivate10historyAddERK5QCharbRK7QString@Base 4.96.0
+ (optional=private|arch=!amd64)_ZN11KCharSelect18KCharSelectPrivate10historyAddERK5QCharbRK7QString@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate11createLinksE7QString@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate14_k_linkClickedE4QUrl@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate15_k_fontSelectedEv@Base 4.96.0
@@ -60,9 +60,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KCharSelect18KCharSelectPrivate18_k_sectionSelectedEi@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate20_k_searchEditChangedEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeE5QChar@Base 5.13.0
- (optional=private)_ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeERK5QChar@Base 4.96.0
+ (optional=private|arch=!amd64)_ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeERK5QChar@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharE5QChar@Base 5.13.0
- (optional=private)_ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharERK5QChar@Base 4.96.0
+ (optional=private|arch=!amd64)_ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharERK5QChar@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate21_k_activateSearchLineEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate24updateBackForwardButtonsEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate7_k_backEv@Base 4.96.0
@@ -823,6 +823,8 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KPasswordDialog19setUsernameReadOnlyEb@Base 4.96.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate12updateFieldsEv@Base 4.96.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate14actuallyAcceptEv@Base 4.96.0
+ _ZN15KPasswordDialog22KPasswordDialogPrivate14toggleEchoModeEv@Base 5.14.0
+ _ZN15KPasswordDialog22KPasswordDialogPrivate24showToggleEchoModeActionERK7QString@Base 5.14.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate4initEv@Base 4.96.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate9activatedERK7QString@Base 4.96.0
  _ZN15KPasswordDialog22gotUsernameAndPasswordERK7QStringS2_b@Base 4.96.0
