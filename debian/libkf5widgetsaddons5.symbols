@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14 amd64
+# SymbolsHelper-Confirmed: 5.15.0+git20151014.0032+15.10 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -981,6 +981,28 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordDialogD0Ev@Base 4.96.0
  _ZN18KNewPasswordDialogD1Ev@Base 4.96.0
  _ZN18KNewPasswordDialogD2Ev@Base 4.96.0
+ _ZN18KNewPasswordWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget11qt_metacastEPKc@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget16staticMetaObjectE@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget21passwordStatusChangedEv@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget22setAllowEmptyPasswordsEb@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget24setMaximumPasswordLengthEi@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget24setMinimumPasswordLengthEi@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate14_k_textChangedEv@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate17_k_toggleEchoModeEv@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate20updatePasswordStatusENS_14PasswordStatusE@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate23effectivePasswordLengthERK7QString@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate27_k_showToggleEchoModeActionERK7QString@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate4initEv@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget25setBackgroundWarningColorERK6QColor@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget27setReasonablePasswordLengthEi@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget31setPasswordStrengthMeterVisibleEb@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidget31setPasswordStrengthWarningLevelEi@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidgetC1EP7QWidget@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidgetC2EP7QWidget@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidgetD0Ev@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidgetD1Ev@Base 5.15.0+git20151014.0032+15.10
+ _ZN18KNewPasswordWidgetD2Ev@Base 5.15.0+git20151014.0032+15.10
  _ZN18KSqueezedTextLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN18KSqueezedTextLabel11qt_metacastEPKc@Base 4.96.0
  _ZN18KSqueezedTextLabel11resizeEventEP12QResizeEvent@Base 4.96.0
@@ -1635,6 +1657,16 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK18KNewPasswordDialog6pixmapEv@Base 4.96.0
  _ZNK18KNewPasswordDialog6promptEv@Base 4.96.0
  _ZNK18KNewPasswordDialog8passwordEv@Base 4.96.0
+ _ZNK18KNewPasswordWidget10metaObjectEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget14passwordStatusEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget19allowEmptyPasswordsEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget21maximumPasswordLengthEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget21minimumPasswordLengthEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget22backgroundWarningColorEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget24reasonablePasswordLengthEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget28passwordStrengthWarningLevelEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget30isPasswordStrengthMeterVisibleEv@Base 5.15.0+git20151014.0032+15.10
+ _ZNK18KNewPasswordWidget8passwordEv@Base 5.15.0+git20151014.0032+15.10
  _ZNK18KSqueezedTextLabel10metaObjectEv@Base 4.96.0
  _ZNK18KSqueezedTextLabel13textElideModeEv@Base 4.96.0
  _ZNK18KSqueezedTextLabel15minimumSizeHintEv@Base 4.96.0
@@ -1779,6 +1811,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI17KGradientSelector@Base 4.96.0
  _ZTI18KMultiTabBarButton@Base 4.96.0
  _ZTI18KNewPasswordDialog@Base 4.96.0
+ _ZTI18KNewPasswordWidget@Base 5.15.0+git20151014.0032+15.10
  _ZTI18KSqueezedTextLabel@Base 4.96.0
  _ZTI19KToolBarLabelAction@Base 4.96.0
  _ZTI19KToolBarPopupAction@Base 4.96.0
@@ -1840,6 +1873,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS17KGradientSelector@Base 4.96.0
  _ZTS18KMultiTabBarButton@Base 4.96.0
  _ZTS18KNewPasswordDialog@Base 4.96.0
+ _ZTS18KNewPasswordWidget@Base 5.15.0+git20151014.0032+15.10
  _ZTS18KSqueezedTextLabel@Base 4.96.0
  _ZTS19KToolBarLabelAction@Base 4.96.0
  _ZTS19KToolBarPopupAction@Base 4.96.0
@@ -1901,6 +1935,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV17KGradientSelector@Base 4.96.0
  _ZTV18KMultiTabBarButton@Base 4.96.0
  _ZTV18KNewPasswordDialog@Base 4.96.0
+ _ZTV18KNewPasswordWidget@Base 5.15.0+git20151014.0032+15.10
  _ZTV18KSqueezedTextLabel@Base 4.96.0
  _ZTV19KToolBarLabelAction@Base 4.96.0
  _ZTV19KToolBarPopupAction@Base 4.96.0
@@ -1949,6 +1984,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  (c++)"non-virtual thunk to KMultiTabBarButton::~KMultiTabBarButton()@Base" 4.96.0
  (c++)"non-virtual thunk to KMultiTabBarTab::~KMultiTabBarTab()@Base" 4.96.0
  (c++)"non-virtual thunk to KNewPasswordDialog::~KNewPasswordDialog()@Base" 4.96.0
+ (c++)"non-virtual thunk to KNewPasswordWidget::~KNewPasswordWidget()@Base" 5.15.0+git20151014.0032+15.10
  (c++)"non-virtual thunk to KPageDialog::~KPageDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPageView::~KPageView()@Base" 4.96.0
  (c++)"non-virtual thunk to KPageWidget::~KPageWidget()@Base" 4.96.0
