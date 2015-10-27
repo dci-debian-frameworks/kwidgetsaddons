@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151014.0032+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.0+git20151027.0043+15.10 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -1051,6 +1051,28 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN19KToolBarPopupActionD0Ev@Base 4.96.0
  _ZN19KToolBarPopupActionD1Ev@Base 4.96.0
  _ZN19KToolBarPopupActionD2Ev@Base 4.96.0
+ _ZN20KCollapsibleGroupBox10leaveEventEP6QEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox10paintEventEP11QPaintEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox11qt_metacastEPKc@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox11resizeEventEP12QResizeEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox11setExpandedEb@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox12titleChangedEv@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox13keyPressEventEP9QKeyEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox14mouseMoveEventEP11QMouseEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox15expandedChangedEv@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox15mousePressEventEP11QMouseEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox16staticMetaObjectE@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox5eventEP6QEvent@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox6expandEv@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox6toggleEv@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox8collapseEv@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBox8setTitleERK7QString@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBoxC1EP7QWidget@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBoxC2EP7QWidget@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBoxD0Ev@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBoxD1Ev@Base 5.15.0+git20151027.0043+15.10
+ _ZN20KCollapsibleGroupBoxD2Ev@Base 5.15.0+git20151027.0043+15.10
  _ZN20KToolBarSpacerAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KToolBarSpacerAction11qt_metacastEPKc@Base 4.96.0
  _ZN20KToolBarSpacerAction12createWidgetEP7QWidget@Base 4.96.0
@@ -1678,6 +1700,11 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK19KToolBarPopupAction10stickyMenuEv@Base 4.96.0
  _ZNK19KToolBarPopupAction7delayedEv@Base 4.96.0
  _ZNK19KToolBarPopupAction9popupMenuEv@Base 4.96.0
+ _ZNK20KCollapsibleGroupBox10isExpandedEv@Base 5.15.0+git20151027.0043+15.10
+ _ZNK20KCollapsibleGroupBox10metaObjectEv@Base 5.15.0+git20151027.0043+15.10
+ _ZNK20KCollapsibleGroupBox15minimumSizeHintEv@Base 5.15.0+git20151027.0043+15.10
+ _ZNK20KCollapsibleGroupBox5titleEv@Base 5.15.0+git20151027.0043+15.10
+ _ZNK20KCollapsibleGroupBox8sizeHintEv@Base 5.15.0+git20151027.0043+15.10
  _ZNK20KToolBarSpacerAction10metaObjectEv@Base 4.96.0
  _ZNK20KViewStateSerializer10metaObjectEv@Base 4.96.0
  _ZNK20KViewStateSerializer11scrollStateEv@Base 4.96.0
@@ -1815,6 +1842,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI18KSqueezedTextLabel@Base 4.96.0
  _ZTI19KToolBarLabelAction@Base 4.96.0
  _ZTI19KToolBarPopupAction@Base 4.96.0
+ _ZTI20KCollapsibleGroupBox@Base 5.15.0+git20151027.0043+15.10
  _ZTI20KToolBarSpacerAction@Base 4.96.0
  _ZTI20KViewStateSerializer@Base 4.96.0
  _ZTI21KPixmapSequenceWidget@Base 4.96.0
@@ -1877,6 +1905,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS18KSqueezedTextLabel@Base 4.96.0
  _ZTS19KToolBarLabelAction@Base 4.96.0
  _ZTS19KToolBarPopupAction@Base 4.96.0
+ _ZTS20KCollapsibleGroupBox@Base 5.15.0+git20151027.0043+15.10
  _ZTS20KToolBarSpacerAction@Base 4.96.0
  _ZTS20KViewStateSerializer@Base 4.96.0
  _ZTS21KPixmapSequenceWidget@Base 4.96.0
@@ -1939,6 +1968,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV18KSqueezedTextLabel@Base 4.96.0
  _ZTV19KToolBarLabelAction@Base 4.96.0
  _ZTV19KToolBarPopupAction@Base 4.96.0
+ _ZTV20KCollapsibleGroupBox@Base 5.15.0+git20151027.0043+15.10
  _ZTV20KToolBarSpacerAction@Base 4.96.0
  _ZTV20KViewStateSerializer@Base 4.96.0
  _ZTV21KPixmapSequenceWidget@Base 4.96.0
@@ -1967,6 +1997,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  (c++)"non-virtual thunk to KAssistantDialog::~KAssistantDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KCapacityBar::~KCapacityBar()@Base" 4.96.0
  (c++)"non-virtual thunk to KCharSelect::~KCharSelect()@Base" 4.96.0
+ (c++)"non-virtual thunk to KCollapsibleGroupBox::~KCollapsibleGroupBox()@Base" 5.15.0+git20151027.0043+15.10
  (c++)"non-virtual thunk to KColorButton::~KColorButton()@Base" 4.96.0
  (c++)"non-virtual thunk to KColorCombo::~KColorCombo()@Base" 4.96.0
  (c++)"non-virtual thunk to KDateComboBox::~KDateComboBox()@Base" 4.96.0
