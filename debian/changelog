@@ -1,3 +1,9 @@
+kwidgetsaddons (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Batchpatch symbols. Removed 2 private symbols. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 03 Dec 2015 22:46:12 -0800
+
 kwidgetsaddons (5.15.0-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
