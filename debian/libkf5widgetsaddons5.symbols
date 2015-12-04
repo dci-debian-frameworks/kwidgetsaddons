@@ -968,9 +968,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordDialog22setAllowEmptyPasswordsEb@Base 4.96.0
  _ZN18KNewPasswordDialog24setMaximumPasswordLengthEi@Base 4.96.0
  _ZN18KNewPasswordDialog24setMinimumPasswordLengthEi@Base 4.96.0
- _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate14_k_textChangedEv@Base 4.96.0
- _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate23effectivePasswordLengthERK7QString@Base 4.96.0
+ _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate24_k_passwordStatusChangedEv@Base 5.16.0
  _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate4initEv@Base 4.96.0
+ _ZN18KNewPasswordDialog25setBackgroundWarningColorERK6QColor@Base 5.16.0
  _ZN18KNewPasswordDialog27setReasonablePasswordLengthEi@Base 4.96.0
  _ZN18KNewPasswordDialog31setPasswordStrengthWarningLevelEi@Base 4.96.0
  _ZN18KNewPasswordDialog6acceptEv@Base 4.96.0
@@ -1674,6 +1674,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK18KNewPasswordDialog19allowEmptyPasswordsEv@Base 4.96.0
  _ZNK18KNewPasswordDialog21maximumPasswordLengthEv@Base 4.96.0
  _ZNK18KNewPasswordDialog21minimumPasswordLengthEv@Base 4.96.0
+ _ZNK18KNewPasswordDialog22backgroundWarningColorEv@Base 5.16.0
  _ZNK18KNewPasswordDialog24reasonablePasswordLengthEv@Base 4.96.0
  _ZNK18KNewPasswordDialog28passwordStrengthWarningLevelEv@Base 4.96.0
  _ZNK18KNewPasswordDialog6pixmapEv@Base 4.96.0

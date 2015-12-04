@@ -1,6 +1,7 @@
 kwidgetsaddons (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
+  * Batchpatch symbols. Removed 2 private symbols.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 15:51:28 -0800
 
