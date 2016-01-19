@@ -1,9 +1,10 @@
-kwidgetsaddons (5.17.0-1~) UNRELEASED; urgency=medium
+kwidgetsaddons (5.18.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.17.0).
   * Update symbols files.
+  * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:16:44 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 20:55:37 +0100
 
 kwidgetsaddons (5.16.0-1) unstable; urgency=medium
 
