@@ -8,6 +8,9 @@ kwidgetsaddons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * New upstream release
 
+  [ Clive Johnston ]
+  * Updating symbols 
+
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:08:59 +0100
 
 kwidgetsaddons (5.16.0-1) unstable; urgency=medium

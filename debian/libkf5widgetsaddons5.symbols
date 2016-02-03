@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.18.0+git20160202.0104+16.04 amd64 i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -968,6 +968,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordDialog22setAllowEmptyPasswordsEb@Base 4.96.0
  _ZN18KNewPasswordDialog24setMaximumPasswordLengthEi@Base 4.96.0
  _ZN18KNewPasswordDialog24setMinimumPasswordLengthEi@Base 4.96.0
+ _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate17showMessageWidgetERK7QStringN14KMessageWidget11MessageTypeE@Base 5.18.0+git20160202.0104+16.04
  _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate24_k_passwordStatusChangedEv@Base 5.16.0
  _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate4initEv@Base 4.96.0
  _ZN18KNewPasswordDialog25setBackgroundWarningColorERK6QColor@Base 5.16.0
