@@ -56,17 +56,3 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  dialogs for configuration pages, message boxes, and password requests.
  .
  This package contains the translations.
-
-Package: libkf5widgetsaddons5-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5widgetsaddons5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kwidgetsaddons
- Provided are action classes that can be added to toolbars or menus,
- a wide range of widgets for selecting characters, fonts, colors,
- actions, dates and times, or MIME types, as well as platform-aware
- dialogs for configuration pages, message boxes, and password requests.
- .
- Contains debug symbols for kwidgetsaddons.
