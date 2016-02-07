@@ -1,6 +1,7 @@
 kwidgetsaddons (5.19.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.19.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 18:59:10 +0100
 
