@@ -1,4 +1,4 @@
-kwidgetsaddons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+kwidgetsaddons (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
