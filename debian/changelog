@@ -1,13 +1,14 @@
-kwidgetsaddons (5.20.0-1~1.gbpf9782c) UNRELEASED; urgency=medium
+kwidgetsaddons (5.20.0-1~2.gbp01bbae) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f9782cf23cb5ff0f7d2ebe24bca2c93c9c1d71f5 **
+  ** SNAPSHOT build @01bbae01e4e5c4548c7c0cd0373c47a3f8f534df **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 24 Mar 2016 00:25:22 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 17:25:42 +0200
 
 kwidgetsaddons (5.19.0-1) experimental; urgency=medium
 
