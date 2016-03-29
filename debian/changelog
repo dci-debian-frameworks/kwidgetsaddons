@@ -1,6 +1,6 @@
-kwidgetsaddons (5.20.0-1~5.gbp38f73f) UNRELEASED; urgency=medium
+kwidgetsaddons (5.20.0-1~6.gbp625b95) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @38f73f9eef49e6a45af01745acabe146aefcb7a6 **
+  ** SNAPSHOT build @625b951329a1e755def2b4205733346c78695b61 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -10,8 +10,9 @@ kwidgetsaddons (5.20.0-1~5.gbp38f73f) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:18:46 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:21:18 +0200
 
 kwidgetsaddons (5.19.0-1) experimental; urgency=medium
 
