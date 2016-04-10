@@ -1,5 +1,8 @@
-kwidgetsaddons (5.20.0-1~10.gbp5d8b5a) UNRELEASED; urgency=medium
+kwidgetsaddons (5.21.0-1~1.gbp581544) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @581544aff42fa1ced20be265988455463ba124b8 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @5d8b5a721cef09bc2ca1c0cc9203028357e73641 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -15,8 +18,14 @@ kwidgetsaddons (5.20.0-1~10.gbp5d8b5a) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:16:31 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:16:29 +0200
 
 kwidgetsaddons (5.19.0-1) experimental; urgency=medium
 
