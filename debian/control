@@ -5,17 +5,15 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
                qttools5-dev (>= 5.4),
-               qttools5-dev-tools (>= 5.4),
-               xauth,
-               xvfb
+               qttools5-dev-tools (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kwidgetsaddons
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kwidgetsaddons.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kwidgetsaddons.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kwidgetsaddons.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwidgetsaddons.git
 
 Package: libkf5widgetsaddons-dev
 Section: libdevel
@@ -56,17 +54,3 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  dialogs for configuration pages, message boxes, and password requests.
  .
  This package contains the translations.
-
-Package: libkf5widgetsaddons5-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5widgetsaddons5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kwidgetsaddons
- Provided are action classes that can be added to toolbars or menus,
- a wide range of widgets for selecting characters, fonts, colors,
- actions, dates and times, or MIME types, as well as platform-aware
- dialogs for configuration pages, message boxes, and password requests.
- .
- Contains debug symbols for kwidgetsaddons.
