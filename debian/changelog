@@ -3,28 +3,15 @@ kwidgetsaddons (5.21.0-1~2.gbpfe285d) UNRELEASED; urgency=medium
   ** SNAPSHOT build @fe285da33e6c8e0b932be3ee2d13749d6c1e83ae **
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @5d8b5a721cef09bc2ca1c0cc9203028357e73641 **
-
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
-
-  [ Maximiliano Curia ]
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:03:47 +0200
 
