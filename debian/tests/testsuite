@@ -9,6 +9,6 @@ export LC_ALL=C.UTF-8
 xvfb-run -a --server-args="-screen 0 1024x768x24" \
     Xephyr -reset -br -screen 1024x768 :2 & x_pid=$!
 
-trap "kill ${x_pid}; rm -rf debian/tests.home" EXIT
+trap "pkill -TERM -P ${x_pid}; kill ${x_pid}; rm -rf debian/tests.home" EXIT
 
 DISPLAY=:2 dbus-launch --exit-with-session dh_auto_test
