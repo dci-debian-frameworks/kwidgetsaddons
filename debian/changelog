@@ -1,3 +1,11 @@
+kwidgetsaddons (5.22.0-1~1.gbp2794cc) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2794ccb2b4d5d62276529385cba93dfd55b5afd3 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:16:33 +0200
+
 kwidgetsaddons (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
