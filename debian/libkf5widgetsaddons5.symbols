@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.19.0 amd64
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -312,7 +312,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KCapacityBar7setTextERK7QString@Base 4.96.0
  _ZN12KCapacityBar8setValueEi@Base 4.96.0
  _ZN12KCapacityBarC1ENS_12DrawTextModeEP7QWidget@Base 4.96.0
+ _ZN12KCapacityBarC1EP7QWidget@Base 5.24.0
  _ZN12KCapacityBarC2ENS_12DrawTextModeEP7QWidget@Base 4.96.0
+ _ZN12KCapacityBarC2EP7QWidget@Base 5.24.0
  _ZN12KCapacityBarD0Ev@Base 4.96.0
  _ZN12KCapacityBarD1Ev@Base 4.96.0
  _ZN12KCapacityBarD2Ev@Base 4.96.0
@@ -387,7 +389,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KMultiTabBar9appendTabERK7QPixmapiRK7QString@Base 4.96.0
  _ZN12KMultiTabBar9removeTabEi@Base 4.96.0
  _ZN12KMultiTabBarC1ENS_20KMultiTabBarPositionEP7QWidget@Base 4.96.0
+ _ZN12KMultiTabBarC1EP7QWidget@Base 5.24.0
  _ZN12KMultiTabBarC2ENS_20KMultiTabBarPositionEP7QWidget@Base 4.96.0
+ _ZN12KMultiTabBarC2EP7QWidget@Base 5.24.0
  _ZN12KMultiTabBarD0Ev@Base 4.96.0
  _ZN12KMultiTabBarD1Ev@Base 4.96.0
  _ZN12KMultiTabBarD2Ev@Base 4.96.0
