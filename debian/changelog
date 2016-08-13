@@ -1,11 +1,12 @@
-kwidgetsaddons (5.24.0-1~2.gbp960040) UNRELEASED; urgency=medium
+kwidgetsaddons (5.25.0-1~1.gbpf46934) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9600400a20b888ef3e1aaad0f67e9044501a23ae **
+  ** SNAPSHOT build @f46934bfd2961cb8f0a7ec4f7205ab030f638351 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Jul 2016 19:25:35 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 11:16:20 +0200
 
 kwidgetsaddons (5.23.0-1) unstable; urgency=medium
 
