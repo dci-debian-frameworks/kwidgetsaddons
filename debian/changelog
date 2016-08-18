@@ -1,13 +1,13 @@
-kwidgetsaddons (5.25.0-1~2.gbp3cbf78) UNRELEASED; urgency=medium
+kwidgetsaddons (5.25.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @3cbf7853bf225f6aad42bf0c3c87a096f9969e10 **
-
-  * Update build-deps and deps with the info from cmake
+  [ Automatic packaging ]
   * Update symbols files.
   * Update build-deps and deps with the info from cmake
-  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 16 Aug 2016 15:16:10 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:19:11 +0200
 
 kwidgetsaddons (5.23.0-1) unstable; urgency=medium
 
