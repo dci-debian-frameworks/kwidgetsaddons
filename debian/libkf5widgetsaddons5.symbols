@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.19.0 amd64
+# SymbolsHelper-Confirmed: 5.25.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -46,24 +46,29 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KCharSelect14setCurrentCharERK5QChar@Base 4.96.0
  _ZN11KCharSelect14setCurrentFontERK5QFont@Base 4.96.0
  _ZN11KCharSelect16staticMetaObjectE@Base 4.96.0
+ _ZN11KCharSelect17codePointSelectedEj@Base 5.25.0
  _ZN11KCharSelect18KCharSelectPrivate10_k_forwardEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate10historyAddE5QCharbRK7QString@Base 5.13.0
+ _ZN11KCharSelect18KCharSelectPrivate10historyAddEjbRK7QString@Base 5.25.0
  _ZN11KCharSelect18KCharSelectPrivate11createLinksE7QString@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate14_k_linkClickedE4QUrl@Base 4.96.0
+ _ZN11KCharSelect18KCharSelectPrivate15_k_charSelectedEj@Base 5.25.0
  _ZN11KCharSelect18KCharSelectPrivate15_k_fontSelectedEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate15showFromHistoryEi@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate16_k_blockSelectedEi@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate18_k_sectionSelectedEi@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate20_k_searchEditChangedEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeE5QChar@Base 5.13.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharE5QChar@Base 5.13.0
+ _ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeEj@Base 5.25.0
+ _ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharEj@Base 5.25.0
  _ZN11KCharSelect18KCharSelectPrivate21_k_activateSearchLineEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate24updateBackForwardButtonsEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate7_k_backEv@Base 4.96.0
  _ZN11KCharSelect18KCharSelectPrivate9_k_searchEv@Base 4.96.0
  _ZN11KCharSelect18currentCharChangedERK5QChar@Base 4.96.0
  _ZN11KCharSelect18currentFontChangedERK5QFont@Base 4.96.0
+ _ZN11KCharSelect19setAllPlanesEnabledEb@Base 5.25.0
+ _ZN11KCharSelect19setCurrentCodePointEj@Base 5.25.0
  _ZN11KCharSelect21displayedCharsChangedEv@Base 4.96.0
+ _ZN11KCharSelect23currentCodePointChangedEj@Base 5.25.0
  _ZN11KCharSelectC1EP7QWidget6QFlagsINS_7ControlEE@Base 4.96.0
  _ZN11KCharSelectC1EP7QWidgetP7QObject6QFlagsINS_7ControlEE@Base 4.96.0
  _ZN11KCharSelectC2EP7QWidget6QFlagsINS_7ControlEE@Base 4.96.0
@@ -312,7 +317,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KCapacityBar7setTextERK7QString@Base 4.96.0
  _ZN12KCapacityBar8setValueEi@Base 4.96.0
  _ZN12KCapacityBarC1ENS_12DrawTextModeEP7QWidget@Base 4.96.0
+ _ZN12KCapacityBarC1EP7QWidget@Base 5.24.0
  _ZN12KCapacityBarC2ENS_12DrawTextModeEP7QWidget@Base 4.96.0
+ _ZN12KCapacityBarC2EP7QWidget@Base 5.24.0
  _ZN12KCapacityBarD0Ev@Base 4.96.0
  _ZN12KCapacityBarD1Ev@Base 4.96.0
  _ZN12KCapacityBarD2Ev@Base 4.96.0
@@ -387,7 +394,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KMultiTabBar9appendTabERK7QPixmapiRK7QString@Base 4.96.0
  _ZN12KMultiTabBar9removeTabEi@Base 4.96.0
  _ZN12KMultiTabBarC1ENS_20KMultiTabBarPositionEP7QWidget@Base 4.96.0
+ _ZN12KMultiTabBarC1EP7QWidget@Base 5.24.0
  _ZN12KMultiTabBarC2ENS_20KMultiTabBarPositionEP7QWidget@Base 4.96.0
+ _ZN12KMultiTabBarC2EP7QWidget@Base 5.24.0
  _ZN12KMultiTabBarD0Ev@Base 4.96.0
  _ZN12KMultiTabBarD1Ev@Base 4.96.0
  _ZN12KMultiTabBarD2Ev@Base 4.96.0
@@ -1417,6 +1426,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK11KCharSelect11currentCharEv@Base 4.96.0
  _ZNK11KCharSelect11currentFontEv@Base 4.96.0
  _ZNK11KCharSelect14displayedCharsEv@Base 4.96.0
+ _ZNK11KCharSelect16allPlanesEnabledEv@Base 5.25.0
+ _ZNK11KCharSelect16currentCodePointEv@Base 5.25.0
+ _ZNK11KCharSelect19displayedCodePointsEv@Base 5.25.0
  _ZNK11KCharSelect8sizeHintEv@Base 4.96.0
  _ZNK11KColorCombo10metaObjectEv@Base 4.96.0
  _ZNK11KColorCombo13isCustomColorEv@Base 4.96.0
