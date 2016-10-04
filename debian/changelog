@@ -1,3 +1,11 @@
+kwidgetsaddons (5.26.0-2~1.gbpd1f91e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d1f91e8fe8b99a9be1db631fdadd892714702a01 **
+
+  * Update symbols files with the buildds logs.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 17:20:15 +0200
+
 kwidgetsaddons (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
