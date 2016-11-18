@@ -1,11 +1,14 @@
-kwidgetsaddons (5.28.0-1~1.gbpec5c34) UNRELEASED; urgency=medium
+kwidgetsaddons (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ec5c34b36a6420d46e9d05455ff6f7cba6d05661 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:46:24 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:02:42 +0100
 
 kwidgetsaddons (5.27.0-1) unstable; urgency=medium
 
