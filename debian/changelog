@@ -1,3 +1,28 @@
+kwidgetsaddons (5.28.0-2~) UNRELEASED; urgency=medium
+
+  * Apply "KMessageWidget: use darker red color when type is Error" (497c463)
+    Otherwise the close button is barely visible.
+    Add the upstrem patch as:
+     KMessageWidget-use-darker-red-color-when-type-is-Error.patch
+    This fixes the KDE#357210
+  * Apply "Fix KDateComboBox checks for valid entered dates" (1550b2c)
+    This fixes wrong or missing checks to determine whether an entered date
+    is valid.
+    Add upstream patch as:
+     Fix-KDateComboBox-checks-for-valid-entered-dates.patch
+  * Apply "KFontRequester: Find the nearest match for a missing font" (243626c)
+    If the font is missing, then try to find the nearest font family instead
+    of just selecting the first family in the list.
+    This fixes KDE#286260
+    Add the upstream patch as:
+     KFontRequester-Find-the-nearest-match-for-a-missing-font.patch
+  * Backport "Fix wrong size hint when animatedShow is called with hidden parent" (0cfb788)
+    Add upstream patch as:
+     Fix-wrong-size-hint-when-animatedShow-is-called-with-hidd.patch
+    This fixes KDE#377676
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 07 Apr 2017 17:20:26 +0200
+
 kwidgetsaddons (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
