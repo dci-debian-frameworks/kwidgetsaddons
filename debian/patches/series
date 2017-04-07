@@ -1,1 +1,2 @@
 KMessageWidget-use-darker-red-color-when-type-is-Error.patch
+Fix-KDateComboBox-checks-for-valid-entered-dates.patch
