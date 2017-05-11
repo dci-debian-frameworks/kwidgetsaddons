@@ -1,8 +1,8 @@
-kwidgetsaddons (5.28.0-3~) UNRELEASED; urgency=medium
+kwidgetsaddons (5.28.0-3) unstable; urgency=medium
 
   * Update translations to the 5.29 version (Closes: 860515)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 11 May 2017 14:14:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 May 2017 14:58:40 +0200
 
 kwidgetsaddons (5.28.0-2) unstable; urgency=medium
 
