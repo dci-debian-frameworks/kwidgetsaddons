@@ -1,3 +1,9 @@
+kwidgetsaddons (5.28.0-3~) UNRELEASED; urgency=medium
+
+  * Update translations to the 5.29 version (Closes: 860515)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 11 May 2017 14:14:30 +0200
+
 kwidgetsaddons (5.28.0-2) unstable; urgency=medium
 
   * Apply "KMessageWidget: use darker red color when type is Error" (497c463)
