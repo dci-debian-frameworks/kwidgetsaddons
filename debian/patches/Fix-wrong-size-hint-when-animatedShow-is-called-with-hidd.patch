@@ -1,0 +1,25 @@
+From: Christoph Feck <cfeck@kde.org>
+Date: Tue, 28 Mar 2017 01:31:54 +0200
+Subject: Fix wrong size hint when animatedShow is called with hidden parent
+
+BUG: 377676
+
+Differential Revision: https://phabricator.kde.org/D5092
+---
+ src/kmessagewidget.cpp | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/kmessagewidget.cpp b/src/kmessagewidget.cpp
+index 3a6bfe0..eb143a6 100644
+--- a/src/kmessagewidget.cpp
++++ b/src/kmessagewidget.cpp
+@@ -408,7 +408,8 @@ void KMessageWidget::removeAction(QAction *action)
+ 
+ void KMessageWidget::animatedShow()
+ {
+-    if (!style()->styleHint(QStyle::SH_Widget_Animate, 0, this)) {
++    if (!style()->styleHint(QStyle::SH_Widget_Animate, 0, this)
++     || (parentWidget() && !parentWidget()->isVisible())) {
+         show();
+         emit showAnimationFinished();
+         return;

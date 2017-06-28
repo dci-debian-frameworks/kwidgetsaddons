@@ -1,0 +1,5 @@
+KMessageWidget-use-darker-red-color-when-type-is-Error.patch
+Fix-KDateComboBox-checks-for-valid-entered-dates.patch
+KFontRequester-Find-the-nearest-match-for-a-missing-font.patch
+Fix-wrong-size-hint-when-animatedShow-is-called-with-hidd.patch
+Commit-translations-from-l10n-kf5.patch
