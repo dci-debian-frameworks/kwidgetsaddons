@@ -28,12 +28,12 @@ Description: development files for kwidgetsaddons
  dialogs for configuration pages, message boxes, and password requests.
  .
  Contains development files for kwidgetsaddons.
-Breaks: kross-dev (<< 5.28),
-        libkf5completion-dev (<< 5.28),
-        libkf5configwidgets-dev (<< 5.28),
-        libkf5iconthemes-dev (<< 5.28),
-        libkf5jobwidgets-dev (<< 5.28),
-        libkf5khtml-dev (<< 5.28)
+Breaks: kross-dev (<< 5.35),
+        libkf5completion-dev (<< 5.35),
+        libkf5configwidgets-dev (<< 5.35),
+        libkf5iconthemes-dev (<< 5.35),
+        libkf5jobwidgets-dev (<< 5.35),
+        libkf5khtml-dev (<< 5.35)
 
 Package: libkf5widgetsaddons5
 Architecture: any
@@ -47,32 +47,32 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  actions, dates and times, or MIME types, as well as platform-aware
  dialogs for configuration pages, message boxes, and password requests.
 Breaks: frameworkintegration (<< 5.28),
-        kdesignerplugin (<< 5.28),
-        kio (<< 5.28),
-        kross (<< 5.28),
-        libkf5bookmarks5 (<< 5.28),
-        libkf5completion5 (<< 5.28),
-        libkf5configwidgets5 (<< 5.28),
-        libkf5iconthemes5 (<< 5.28),
-        libkf5jobwidgets5 (<< 5.28),
-        libkf5kcmutils5 (<< 5.28),
-        libkf5kdelibs4support5 (<< 5.28),
-        libkf5kdelibs4support5-bin (<< 5.28),
-        libkf5khtml-bin (<< 5.28),
-        libkf5khtml5 (<< 5.28),
-        libkf5kiofilewidgets5 (<< 5.28),
-        libkf5kiowidgets5 (<< 5.28),
-        libkf5krossui5 (<< 5.28),
-        libkf5newstuff5 (<< 5.28),
-        libkf5parts-plugins (<< 5.28),
-        libkf5parts5 (<< 5.28),
-        libkf5peoplewidgets5 (<< 5.28),
-        libkf5texteditor5 (<< 5.28),
-        libkf5textwidgets5 (<< 5.28),
-        libkf5wallet-bin (<< 5.28),
-        libkf5xmlgui5 (<< 5.28),
-        libkwalletbackend5-5 (<< 5.28),
-        qml-module-org-kde-kquickcontrols (<< 5.28)
+        kdesignerplugin (<< 5.35),
+        kio (<< 5.35),
+        kross (<< 5.35),
+        libkf5bookmarks5 (<< 5.35),
+        libkf5completion5 (<< 5.35),
+        libkf5configwidgets5 (<< 5.35),
+        libkf5iconthemes5 (<< 5.35),
+        libkf5jobwidgets5 (<< 5.35),
+        libkf5kcmutils5 (<< 5.35),
+        libkf5kdelibs4support5 (<< 5.35),
+        libkf5kdelibs4support5-bin (<< 5.35),
+        libkf5khtml-bin (<< 5.35),
+        libkf5khtml5 (<< 5.35),
+        libkf5kiofilewidgets5 (<< 5.35),
+        libkf5kiowidgets5 (<< 5.35),
+        libkf5krossui5 (<< 5.35),
+        libkf5newstuff5 (<< 5.35),
+        libkf5parts-plugins (<< 5.35),
+        libkf5parts5 (<< 5.35),
+        libkf5peoplewidgets5 (<< 5.35),
+        libkf5texteditor5 (<< 5.35),
+        libkf5textwidgets5 (<< 5.35),
+        libkf5wallet-bin (<< 5.35),
+        libkf5xmlgui5 (<< 5.35),
+        libkwalletbackend5-5 (<< 5.35),
+        qml-module-org-kde-kquickcontrols (<< 5.35)
 
 Package: libkf5widgetsaddons-data
 Architecture: all
