@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 alpha arm64 hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -683,6 +683,29 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN14KRatingPainterC2Ev@Base 4.96.0
  _ZN14KRatingPainterD1Ev@Base 4.96.0
  _ZN14KRatingPainterD2Ev@Base 4.96.0
+ _ZN14KToolTipWidget10enterEventEP6QEvent@Base 5.35.0
+ _ZN14KToolTipWidget10leaveEventEP6QEvent@Base 5.35.0
+ _ZN14KToolTipWidget10paintEventEP11QPaintEvent@Base 5.35.0
+ _ZN14KToolTipWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.35.0
+ _ZN14KToolTipWidget11qt_metacastEPKc@Base 5.35.0
+ _ZN14KToolTipWidget12setHideDelayEi@Base 5.35.0
+ _ZN14KToolTipWidget16staticMetaObjectE@Base 5.35.0
+ _ZN14KToolTipWidget21KToolTipWidgetPrivate11storeParentEv@Base 5.35.0
+ _ZN14KToolTipWidget21KToolTipWidgetPrivate12removeWidgetEv@Base 5.35.0
+ _ZN14KToolTipWidget21KToolTipWidgetPrivate13restoreParentEv@Base 5.35.0
+ _ZN14KToolTipWidget21KToolTipWidgetPrivate4initEv@Base 5.35.0
+ _ZN14KToolTipWidget21KToolTipWidgetPrivate4showERK6QPointP7QWindow@Base 5.35.0
+ _ZN14KToolTipWidget21KToolTipWidgetPrivate9addWidgetEP7QWidget@Base 5.35.0
+ _ZN14KToolTipWidget6hiddenEv@Base 5.35.0
+ _ZN14KToolTipWidget6showAtERK6QPointP7QWidgetP7QWindow@Base 5.35.0
+ _ZN14KToolTipWidget9hideEventEP10QHideEvent@Base 5.35.0
+ _ZN14KToolTipWidget9hideLaterEv@Base 5.35.0
+ _ZN14KToolTipWidget9showBelowERK5QRectP7QWidgetP7QWindow@Base 5.35.0
+ _ZN14KToolTipWidgetC1EP7QWidget@Base 5.35.0
+ _ZN14KToolTipWidgetC2EP7QWidget@Base 5.35.0
+ _ZN14KToolTipWidgetD0Ev@Base 5.35.0
+ _ZN14KToolTipWidgetD1Ev@Base 5.35.0
+ _ZN14KToolTipWidgetD2Ev@Base 5.35.0
  _ZN15KActionSelector11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN15KActionSelector11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN15KActionSelector11qt_metacastEPKc@Base 4.96.0
@@ -981,6 +1004,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate24_k_passwordStatusChangedEv@Base 5.17.0
  _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate4initEv@Base 4.96.0
  _ZN18KNewPasswordDialog25setBackgroundWarningColorERK6QColor@Base 5.17.0
+ _ZN18KNewPasswordDialog26setRevealPasswordAvailableEb@Base 5.35.0
  _ZN18KNewPasswordDialog27setReasonablePasswordLengthEi@Base 4.96.0
  _ZN18KNewPasswordDialog31setPasswordStrengthWarningLevelEi@Base 4.96.0
  _ZN18KNewPasswordDialog6acceptEv@Base 4.96.0
@@ -1005,6 +1029,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate27_k_showToggleEchoModeActionERK7QString@Base 5.16.0
  _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate4initEv@Base 5.16.0
  _ZN18KNewPasswordWidget25setBackgroundWarningColorERK6QColor@Base 5.16.0
+ _ZN18KNewPasswordWidget26setRevealPasswordAvailableEb@Base 5.35.0
  _ZN18KNewPasswordWidget27setReasonablePasswordLengthEi@Base 5.16.0
  _ZN18KNewPasswordWidget31setPasswordStrengthMeterVisibleEb@Base 5.16.0
  _ZN18KNewPasswordWidget31setPasswordStrengthWarningLevelEi@Base 5.16.0
@@ -1073,6 +1098,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN20KCollapsibleGroupBox15expandedChangedEv@Base 5.16.0
  _ZN20KCollapsibleGroupBox15mousePressEventEP11QMouseEvent@Base 5.16.0
  _ZN20KCollapsibleGroupBox16staticMetaObjectE@Base 5.16.0
+ _ZN20KCollapsibleGroupBox21overrideFocusPolicyOfEP7QWidget@Base 5.35.0
  _ZN20KCollapsibleGroupBox5eventEP6QEvent@Base 5.16.0
  _ZN20KCollapsibleGroupBox6expandEv@Base 5.16.0
  _ZN20KCollapsibleGroupBox6toggleEv@Base 5.16.0
@@ -1596,6 +1622,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK14KRatingPainter9alignmentEv@Base 4.96.0
  _ZNK14KRatingPainter9isEnabledEv@Base 4.96.0
  _ZNK14KRatingPainter9maxRatingEv@Base 4.96.0
+ _ZNK14KToolTipWidget10metaObjectEv@Base 5.35.0
+ _ZNK14KToolTipWidget21KToolTipWidgetPrivate11centerBelowERK5QRectP7QScreen@Base 5.35.0
+ _ZNK14KToolTipWidget9hideDelayEv@Base 5.35.0
  _ZNK15KActionSelector10metaObjectEv@Base 4.96.0
  _ZNK15KActionSelector13selectedLabelEv@Base 4.96.0
  _ZNK15KActionSelector14availableLabelEv@Base 4.96.0
@@ -1689,6 +1718,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK18KNewPasswordDialog21minimumPasswordLengthEv@Base 4.96.0
  _ZNK18KNewPasswordDialog22backgroundWarningColorEv@Base 5.17.0
  _ZNK18KNewPasswordDialog24reasonablePasswordLengthEv@Base 4.96.0
+ _ZNK18KNewPasswordDialog25isRevealPasswordAvailableEv@Base 5.35.0
  _ZNK18KNewPasswordDialog28passwordStrengthWarningLevelEv@Base 4.96.0
  _ZNK18KNewPasswordDialog6pixmapEv@Base 4.96.0
  _ZNK18KNewPasswordDialog6promptEv@Base 4.96.0
@@ -1700,6 +1730,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK18KNewPasswordWidget21minimumPasswordLengthEv@Base 5.16.0
  _ZNK18KNewPasswordWidget22backgroundWarningColorEv@Base 5.16.0
  _ZNK18KNewPasswordWidget24reasonablePasswordLengthEv@Base 5.16.0
+ _ZNK18KNewPasswordWidget25isRevealPasswordAvailableEv@Base 5.35.0
  _ZNK18KNewPasswordWidget28passwordStrengthWarningLevelEv@Base 5.16.0
  _ZNK18KNewPasswordWidget30isPasswordStrengthMeterVisibleEv@Base 5.16.0
  _ZNK18KNewPasswordWidget8passwordEv@Base 5.16.0
@@ -1839,6 +1870,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI14KColumnResizer@Base 5.2.0
  _ZTI14KFontRequester@Base 4.96.0
  _ZTI14KMessageWidget@Base 4.96.0
+ _ZTI14KToolTipWidget@Base 5.35.0
  _ZTI15KActionSelector@Base 4.96.0
  _ZTI15KAnimatedButton@Base 4.96.0
  _ZTI15KEditListWidget@Base 4.96.0
@@ -1902,6 +1934,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS14KColumnResizer@Base 5.2.0
  _ZTS14KFontRequester@Base 4.96.0
  _ZTS14KMessageWidget@Base 4.96.0
+ _ZTS14KToolTipWidget@Base 5.35.0
  _ZTS15KActionSelector@Base 4.96.0
  _ZTS15KAnimatedButton@Base 4.96.0
  _ZTS15KEditListWidget@Base 4.96.0
@@ -1965,6 +1998,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV14KColumnResizer@Base 5.2.0
  _ZTV14KFontRequester@Base 4.96.0
  _ZTV14KMessageWidget@Base 4.96.0
+ _ZTV14KToolTipWidget@Base 5.35.0
  _ZTV15KActionSelector@Base 4.96.0
  _ZTV15KAnimatedButton@Base 4.96.0
  _ZTV15KEditListWidget@Base 4.96.0
@@ -2045,5 +2079,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  (c++)"non-virtual thunk to KSqueezedTextLabel::~KSqueezedTextLabel()@Base" 4.96.0
  (c++)"non-virtual thunk to KTimeComboBox::~KTimeComboBox()@Base" 4.96.0
  (c++)"non-virtual thunk to KTitleWidget::~KTitleWidget()@Base" 4.96.0
+ (c++)"non-virtual thunk to KToolTipWidget::~KToolTipWidget()@Base" 5.35.0
  (c++)"non-virtual thunk to KUrlLabel::~KUrlLabel()@Base" 4.96.0
  (c++)"non-virtual thunk to KXYSelector::~KXYSelector()@Base" 4.96.0
