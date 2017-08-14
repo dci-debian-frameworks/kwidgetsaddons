@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -849,8 +849,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KPasswordDialog19setUsernameReadOnlyEb@Base 4.96.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate12updateFieldsEv@Base 4.96.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate14actuallyAcceptEv@Base 4.96.0
- _ZN15KPasswordDialog22KPasswordDialogPrivate14toggleEchoModeEv@Base 5.14.0
- _ZN15KPasswordDialog22KPasswordDialogPrivate24showToggleEchoModeActionERK7QString@Base 5.14.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate4initEv@Base 4.96.0
  _ZN15KPasswordDialog22KPasswordDialogPrivate9activatedERK7QString@Base 4.96.0
  _ZN15KPasswordDialog22gotUsernameAndPasswordERK7QStringS2_b@Base 4.96.0
@@ -975,6 +973,21 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN17KGradientSelectorD0Ev@Base 4.96.0
  _ZN17KGradientSelectorD1Ev@Base 4.96.0
  _ZN17KGradientSelectorD2Ev@Base 4.96.0
+ _ZN17KPasswordLineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.37.0
+ _ZN17KPasswordLineEdit11qt_metacastEPKc@Base 5.37.0
+ _ZN17KPasswordLineEdit11setEchoModeEN9QLineEdit8EchoModeE@Base 5.37.0
+ _ZN17KPasswordLineEdit11setPasswordERK7QString@Base 5.37.0
+ _ZN17KPasswordLineEdit15echoModeChangedEN9QLineEdit8EchoModeE@Base 5.37.0
+ _ZN17KPasswordLineEdit15passwordChangedERK7QString@Base 5.37.0
+ _ZN17KPasswordLineEdit16staticMetaObjectE@Base 5.37.0
+ _ZN17KPasswordLineEdit21setClearButtonEnabledEb@Base 5.37.0
+ _ZN17KPasswordLineEdit26setRevealPasswordAvailableEb@Base 5.37.0
+ _ZN17KPasswordLineEdit5clearEv@Base 5.37.0
+ _ZN17KPasswordLineEditC1EP7QWidget@Base 5.37.0
+ _ZN17KPasswordLineEditC2EP7QWidget@Base 5.37.0
+ _ZN17KPasswordLineEditD0Ev@Base 5.37.0
+ _ZN17KPasswordLineEditD1Ev@Base 5.37.0
+ _ZN17KPasswordLineEditD2Ev@Base 5.37.0
  _ZN18KMultiTabBarButton10paintEventEP11QPaintEvent@Base 4.96.0
  _ZN18KMultiTabBarButton11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN18KMultiTabBarButton11qt_metacastEPKc@Base 4.96.0
@@ -1022,11 +1035,10 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordWidget22setAllowEmptyPasswordsEb@Base 5.16.0
  _ZN18KNewPasswordWidget24setMaximumPasswordLengthEi@Base 5.16.0
  _ZN18KNewPasswordWidget24setMinimumPasswordLengthEi@Base 5.16.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate14_k_textChangedEv@Base 5.16.0
  _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate17_k_toggleEchoModeEv@Base 5.16.0
+ _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate18_k_passwordChangedEv@Base 5.37.0
  _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate20updatePasswordStatusENS_14PasswordStatusE@Base 5.16.0
  _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate23effectivePasswordLengthERK7QString@Base 5.16.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate27_k_showToggleEchoModeActionERK7QString@Base 5.16.0
  _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate4initEv@Base 5.16.0
  _ZN18KNewPasswordWidget25setBackgroundWarningColorERK6QColor@Base 5.16.0
  _ZN18KNewPasswordWidget26setRevealPasswordAvailableEb@Base 5.35.0
@@ -1710,6 +1722,13 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK17KGradientSelector11secondColorEv@Base 4.96.0
  _ZNK17KGradientSelector5stopsEv@Base 4.96.0
  _ZNK17KGradientSelector9firstTextEv@Base 4.96.0
+ _ZNK17KPasswordLineEdit10metaObjectEv@Base 5.37.0
+ _ZNK17KPasswordLineEdit20isClearButtonEnabledEv@Base 5.37.0
+ _ZNK17KPasswordLineEdit20toggleEchoModeActionEv@Base 5.37.0
+ _ZNK17KPasswordLineEdit25isRevealPasswordAvailableEv@Base 5.37.0
+ _ZNK17KPasswordLineEdit8echoModeEv@Base 5.37.0
+ _ZNK17KPasswordLineEdit8lineEditEv@Base 5.37.0
+ _ZNK17KPasswordLineEdit8passwordEv@Base 5.37.0
  _ZNK18KMultiTabBarButton10metaObjectEv@Base 4.96.0
  _ZNK18KMultiTabBarButton2idEv@Base 4.96.0
  _ZNK18KNewPasswordDialog10metaObjectEv@Base 4.96.0
@@ -1882,6 +1901,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI16KMimeTypeChooser@Base 4.96.0
  _ZTI16KPageWidgetModel@Base 4.96.0
  _ZTI17KGradientSelector@Base 4.96.0
+ _ZTI17KPasswordLineEdit@Base 5.37.0
  _ZTI18KMultiTabBarButton@Base 4.96.0
  _ZTI18KNewPasswordDialog@Base 4.96.0
  _ZTI18KNewPasswordWidget@Base 5.16.0
@@ -1946,6 +1966,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS16KMimeTypeChooser@Base 4.96.0
  _ZTS16KPageWidgetModel@Base 4.96.0
  _ZTS17KGradientSelector@Base 4.96.0
+ _ZTS17KPasswordLineEdit@Base 5.37.0
  _ZTS18KMultiTabBarButton@Base 4.96.0
  _ZTS18KNewPasswordDialog@Base 4.96.0
  _ZTS18KNewPasswordWidget@Base 5.16.0
@@ -2010,6 +2031,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV16KMimeTypeChooser@Base 4.96.0
  _ZTV16KPageWidgetModel@Base 4.96.0
  _ZTV17KGradientSelector@Base 4.96.0
+ _ZTV17KPasswordLineEdit@Base 5.37.0
  _ZTV18KMultiTabBarButton@Base 4.96.0
  _ZTV18KNewPasswordDialog@Base 4.96.0
  _ZTV18KNewPasswordWidget@Base 5.16.0
@@ -2068,6 +2090,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  (c++)"non-virtual thunk to KPageView::~KPageView()@Base" 4.96.0
  (c++)"non-virtual thunk to KPageWidget::~KPageWidget()@Base" 4.96.0
  (c++)"non-virtual thunk to KPasswordDialog::~KPasswordDialog()@Base" 4.96.0
+ (c++)"non-virtual thunk to KPasswordLineEdit::~KPasswordLineEdit()@Base" 5.37.0
  (c++)"non-virtual thunk to KPixmapRegionSelectorDialog::~KPixmapRegionSelectorDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPixmapRegionSelectorWidget::~KPixmapRegionSelectorWidget()@Base" 4.96.0
  (c++)"non-virtual thunk to KPixmapSequenceWidget::~KPixmapSequenceWidget()@Base" 4.96.0
