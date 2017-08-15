@@ -64,6 +64,7 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
  dialogs for configuration pages, message boxes, and password requests.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5widgetsaddons5
 Architecture: any
