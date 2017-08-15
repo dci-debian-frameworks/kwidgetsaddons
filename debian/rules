@@ -4,6 +4,9 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
+override_dh_auto_configure:
+	$(overridden_command) -- -DBUILD_QCH=ON
+
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='libkf5widgetsaddons5-dbg (<= 5.19.0-1~~)'
 
