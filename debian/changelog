@@ -1,8 +1,15 @@
-kwidgetsaddons (5.41.0-1~) UNRELEASED; urgency=medium
+kwidgetsaddons (5.41.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 16:49:20 -0300
+  [ Helmut Grohne ]
+  * Fix FTCBFS: Annotate libqt5sql5-sqlite with :native. (Closes: 882860)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 09:01:58 -0300
 
 kwidgetsaddons (5.41.0-0neon) xenial; urgency=medium
 
