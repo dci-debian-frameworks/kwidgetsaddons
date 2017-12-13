@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.37.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN10KPageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KPageModel11qt_metacastEPKc@Base 4.96.0
@@ -47,22 +47,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KCharSelect14setCurrentFontERK5QFont@Base 4.96.0
  _ZN11KCharSelect16staticMetaObjectE@Base 4.96.0
  _ZN11KCharSelect17codePointSelectedEj@Base 5.25.0
- _ZN11KCharSelect18KCharSelectPrivate10_k_forwardEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate10historyAddEjbRK7QString@Base 5.25.0
- _ZN11KCharSelect18KCharSelectPrivate11createLinksE7QString@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate14_k_linkClickedE4QUrl@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate15_k_charSelectedEj@Base 5.25.0
- _ZN11KCharSelect18KCharSelectPrivate15_k_fontSelectedEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate15showFromHistoryEi@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate16_k_blockSelectedEi@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate18_k_sectionSelectedEi@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_searchEditChangedEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_slotUpdateUnicodeEj@Base 5.25.0
- _ZN11KCharSelect18KCharSelectPrivate20_k_updateCurrentCharEj@Base 5.25.0
- _ZN11KCharSelect18KCharSelectPrivate21_k_activateSearchLineEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate24updateBackForwardButtonsEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate7_k_backEv@Base 4.96.0
- _ZN11KCharSelect18KCharSelectPrivate9_k_searchEv@Base 4.96.0
  _ZN11KCharSelect18currentCharChangedERK5QChar@Base 4.96.0
  _ZN11KCharSelect18currentFontChangedERK5QFont@Base 4.96.0
  _ZN11KCharSelect19setAllPlanesEnabledEb@Base 5.25.0
@@ -108,8 +92,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KDatePicker16staticMetaObjectE@Base 4.96.0
  _ZN11KDatePicker16tableClickedSlotEv@Base 4.96.0
  _ZN11KDatePicker17selectYearClickedEv@Base 4.96.0
- _ZN11KDatePicker18KDatePickerPrivate14fillWeeksComboEv@Base 4.96.0
- _ZN11KDatePicker18KDatePickerPrivate20validDateInYearMonthEii@Base 4.96.0
  _ZN11KDatePicker18selectMonthClickedEv@Base 4.96.0
  _ZN11KDatePicker18todayButtonClickedEv@Base 4.96.0
  _ZN11KDatePicker18yearForwardClickedEv@Base 4.96.0
@@ -268,10 +250,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KPopupFrame13leaveModalityEv@Base 4.96.0
  _ZN11KPopupFrame13setMainWidgetEP7QWidget@Base 4.96.0
  _ZN11KPopupFrame16staticMetaObjectE@Base 4.96.0
- _ZN11KPopupFrame18KPopupFramePrivateC1EPS_@Base 4.96.0
- _ZN11KPopupFrame18KPopupFramePrivateC2EPS_@Base 4.96.0
- _ZN11KPopupFrame18KPopupFramePrivateD1Ev@Base 4.96.0
- _ZN11KPopupFrame18KPopupFramePrivateD2Ev@Base 4.96.0
  _ZN11KPopupFrame4execERK6QPoint@Base 4.96.0
  _ZN11KPopupFrame4execEii@Base 4.96.0
  _ZN11KPopupFrame5closeEi@Base 4.96.0
@@ -294,7 +272,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN11KXYSelector14setMarkerColorERK6QColor@Base 4.96.0
  _ZN11KXYSelector15mousePressEventEP11QMouseEvent@Base 4.96.0
  _ZN11KXYSelector16staticMetaObjectE@Base 4.96.0
- _ZN11KXYSelector7Private9setValuesEii@Base 4.96.0
  _ZN11KXYSelector8setRangeEiiii@Base 4.96.0
  _ZN11KXYSelector9setValuesEii@Base 4.96.0
  _ZN11KXYSelector9setXValueEi@Base 4.96.0
@@ -332,10 +309,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KColorButton15mousePressEventEP11QMouseEvent@Base 4.96.0
  _ZN12KColorButton15setDefaultColorERK6QColor@Base 4.96.0
  _ZN12KColorButton16staticMetaObjectE@Base 4.96.0
- _ZN12KColorButton19KColorButtonPrivate14_k_chooseColorEv@Base 4.96.0
- _ZN12KColorButton19KColorButtonPrivate14_k_colorChosenEv@Base 4.96.0
- _ZN12KColorButton19KColorButtonPrivateC1EPS_@Base 4.96.0
- _ZN12KColorButton19KColorButtonPrivateC2EPS_@Base 4.96.0
  _ZN12KColorButton22setAlphaChannelEnabledEb@Base 4.96.0
  _ZN12KColorButton7changedERK6QColor@Base 4.96.0
  _ZN12KColorButton8setColorERK6QColor@Base 4.96.0
@@ -359,19 +332,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KFontChooser17setSizeIsRelativeEN2Qt10CheckStateE@Base 4.96.0
  _ZN12KFontChooser18setBackgroundColorERK6QColor@Base 4.96.0
  _ZN12KFontChooser19setSampleBoxVisibleEb@Base 4.96.0
- _ZN12KFontChooser7Private12fillSizeListERK5QListIdE@Base 4.96.0
- _ZN12KFontChooser7Private12setupDisplayEv@Base 4.96.0
- _ZN12KFontChooser7Private14nearestSizeRowEdb@Base 4.96.0
- _ZN12KFontChooser7Private15styleIdentifierERK5QFont@Base 4.96.0
- _ZN12KFontChooser7Private16_k_displaySampleERK5QFont@Base 4.96.0
- _ZN12KFontChooser7Private16setupSizeListBoxERK7QStringS3_@Base 4.96.0
- _ZN12KFontChooser7Private17fillFamilyListBoxEb@Base 4.96.0
- _ZN12KFontChooser7Private17setFamilyBoxItemsERK11QStringList@Base 4.96.0
- _ZN12KFontChooser7Private18_k_size_value_slotEd@Base 4.96.0
- _ZN12KFontChooser7Private19_k_size_chosen_slotERK7QString@Base 4.96.0
- _ZN12KFontChooser7Private19_k_toggled_checkboxEv@Base 4.96.0
- _ZN12KFontChooser7Private20_k_style_chosen_slotERK7QString@Base 4.96.0
- _ZN12KFontChooser7Private21_k_family_chosen_slotERK7QString@Base 4.96.0
  _ZN12KFontChooser7setFontERK5QFontb@Base 4.96.0
  _ZN12KFontChooser8setColorERK6QColor@Base 4.96.0
  _ZN12KFontChooserC1EP7QWidgetRK6QFlagsINS_11DisplayFlagEERK11QStringListiPN2Qt10CheckStateE@Base 4.96.0
@@ -407,7 +367,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN12KTitleWidget11qt_metacastEPKc@Base 4.96.0
  _ZN12KTitleWidget16staticMetaObjectE@Base 4.96.0
  _ZN12KTitleWidget18setAutoHideTimeoutEi@Base 4.96.0
- _ZN12KTitleWidget7Private18iconTypeToIconNameENS_11MessageTypeE@Base 4.96.0
  _ZN12KTitleWidget7setTextERK7QString6QFlagsIN2Qt13AlignmentFlagEE@Base 4.96.0
  _ZN12KTitleWidget7setTextERK7QStringNS_11MessageTypeE@Base 4.96.0
  _ZN12KTitleWidget8setBuddyEP7QWidget@Base 4.96.0
@@ -632,9 +591,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN14KFontRequester12fontSelectedERK5QFont@Base 4.96.0
  _ZN14KFontRequester13setSampleTextERK7QString@Base 4.96.0
  _ZN14KFontRequester16staticMetaObjectE@Base 4.96.0
- _ZN14KFontRequester21KFontRequesterPrivate10setToolTipEv@Base 4.96.0
- _ZN14KFontRequester21KFontRequesterPrivate16_k_buttonClickedEv@Base 4.96.0
- _ZN14KFontRequester21KFontRequesterPrivate17displaySampleTextEv@Base 4.96.0
  _ZN14KFontRequester7setFontERK5QFontb@Base 4.96.0
  _ZN14KFontRequester8setTitleERK7QString@Base 4.96.0
  _ZN14KFontRequesterC1EP7QWidgetb@Base 4.96.0
@@ -677,7 +633,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN14KRatingPainter18setLayoutDirectionEN2Qt15LayoutDirectionE@Base 4.96.0
  _ZN14KRatingPainter19setHalfStepsEnabledEb@Base 4.96.0
  _ZN14KRatingPainter21getRatingFromPositionERK5QRect6QFlagsIN2Qt13AlignmentFlagEENS4_15LayoutDirectionERK6QPoint@Base 4.96.0
- _ZN14KRatingPainter7Private9getPixmapEiN5QIcon5StateE@Base 5.4.0+git20141117.0007
  _ZN14KRatingPainter7setIconERK5QIcon@Base 4.96.0
  _ZN14KRatingPainterC1Ev@Base 4.96.0
  _ZN14KRatingPainterC2Ev@Base 4.96.0
@@ -690,12 +645,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN14KToolTipWidget11qt_metacastEPKc@Base 5.35.0
  _ZN14KToolTipWidget12setHideDelayEi@Base 5.35.0
  _ZN14KToolTipWidget16staticMetaObjectE@Base 5.35.0
- _ZN14KToolTipWidget21KToolTipWidgetPrivate11storeParentEv@Base 5.35.0
- _ZN14KToolTipWidget21KToolTipWidgetPrivate12removeWidgetEv@Base 5.35.0
- _ZN14KToolTipWidget21KToolTipWidgetPrivate13restoreParentEv@Base 5.35.0
- _ZN14KToolTipWidget21KToolTipWidgetPrivate4initEv@Base 5.35.0
- _ZN14KToolTipWidget21KToolTipWidgetPrivate4showERK6QPointP7QWindow@Base 5.35.0
- _ZN14KToolTipWidget21KToolTipWidgetPrivate9addWidgetEP7QWidget@Base 5.35.0
  _ZN14KToolTipWidget6hiddenEv@Base 5.35.0
  _ZN14KToolTipWidget6showAtERK6QPointP7QWidgetP7QWindow@Base 5.35.0
  _ZN14KToolTipWidget9hideEventEP10QHideEvent@Base 5.35.0
@@ -789,7 +738,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KFontSizeAction15actionTriggeredEP7QAction@Base 4.96.0
  _ZN15KFontSizeAction15fontSizeChangedEi@Base 4.96.0
  _ZN15KFontSizeAction16staticMetaObjectE@Base 4.96.0
- _ZN15KFontSizeAction7Private4initEv@Base 4.96.0
  _ZN15KFontSizeActionC1EP7QObject@Base 4.96.0
  _ZN15KFontSizeActionC1ERK5QIconRK7QStringP7QObject@Base 4.96.0
  _ZN15KFontSizeActionC1ERK7QStringP7QObject@Base 4.96.0
@@ -847,10 +795,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KPasswordDialog16showErrorMessageERK7QStringNS_9ErrorTypeE@Base 4.96.0
  _ZN15KPasswordDialog16staticMetaObjectE@Base 4.96.0
  _ZN15KPasswordDialog19setUsernameReadOnlyEb@Base 4.96.0
- _ZN15KPasswordDialog22KPasswordDialogPrivate12updateFieldsEv@Base 4.96.0
- _ZN15KPasswordDialog22KPasswordDialogPrivate14actuallyAcceptEv@Base 4.96.0
- _ZN15KPasswordDialog22KPasswordDialogPrivate4initEv@Base 4.96.0
- _ZN15KPasswordDialog22KPasswordDialogPrivate9activatedERK7QString@Base 4.96.0
  _ZN15KPasswordDialog22gotUsernameAndPasswordERK7QStringS2_b@Base 4.96.0
  _ZN15KPasswordDialog6acceptEv@Base 4.96.0
  _ZN15KPasswordDialog9setDomainERK7QString@Base 4.96.0
@@ -861,7 +805,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN15KPasswordDialogD0Ev@Base 4.96.0
  _ZN15KPasswordDialogD1Ev@Base 4.96.0
  _ZN15KPasswordDialogD2Ev@Base 4.96.0
- _ZN15KPixmapSequence7Private12loadSequenceERK7QPixmapRK5QSize@Base 4.96.0
  _ZN15KPixmapSequenceC1ERK7QPixmapRK5QSize@Base 4.96.0
  _ZN15KPixmapSequenceC1ERK7QStringi@Base 4.96.0
  _ZN15KPixmapSequenceC1ERKS_@Base 4.96.0
@@ -879,8 +822,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN16KAssistantDialog16staticMetaObjectE@Base 4.96.0
  _ZN16KAssistantDialog4backEv@Base 4.96.0
  _ZN16KAssistantDialog4nextEv@Base 4.96.0
- _ZN16KAssistantDialog7Private20_k_slotUpdateButtonsEv@Base 4.96.0
- _ZN16KAssistantDialog7Private4initEv@Base 4.96.0
  _ZN16KAssistantDialog8setValidEP15KPageWidgetItemb@Base 4.96.0
  _ZN16KAssistantDialog9showEventEP10QShowEvent@Base 4.96.0
  _ZN16KAssistantDialogC1EP11KPageWidgetP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
@@ -1013,9 +954,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordDialog22setAllowEmptyPasswordsEb@Base 4.96.0
  _ZN18KNewPasswordDialog24setMaximumPasswordLengthEi@Base 4.96.0
  _ZN18KNewPasswordDialog24setMinimumPasswordLengthEi@Base 4.96.0
- _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate17showMessageWidgetERK7QStringN14KMessageWidget11MessageTypeE@Base 5.19.0
- _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate24_k_passwordStatusChangedEv@Base 5.17.0
- _ZN18KNewPasswordDialog25KNewPasswordDialogPrivate4initEv@Base 4.96.0
  _ZN18KNewPasswordDialog25setBackgroundWarningColorERK6QColor@Base 5.17.0
  _ZN18KNewPasswordDialog26setRevealPasswordAvailableEb@Base 5.35.0
  _ZN18KNewPasswordDialog27setReasonablePasswordLengthEi@Base 4.96.0
@@ -1035,11 +973,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KNewPasswordWidget22setAllowEmptyPasswordsEb@Base 5.16.0
  _ZN18KNewPasswordWidget24setMaximumPasswordLengthEi@Base 5.16.0
  _ZN18KNewPasswordWidget24setMinimumPasswordLengthEi@Base 5.16.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate17_k_toggleEchoModeEv@Base 5.16.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate18_k_passwordChangedEv@Base 5.37.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate20updatePasswordStatusENS_14PasswordStatusE@Base 5.16.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate23effectivePasswordLengthERK7QString@Base 5.16.0
- _ZN18KNewPasswordWidget25KNewPasswordWidgetPrivate4initEv@Base 5.16.0
  _ZN18KNewPasswordWidget25setBackgroundWarningColorERK6QColor@Base 5.16.0
  _ZN18KNewPasswordWidget26setRevealPasswordAvailableEb@Base 5.35.0
  _ZN18KNewPasswordWidget27setReasonablePasswordLengthEi@Base 5.16.0
@@ -1061,6 +994,8 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN18KSqueezedTextLabel18squeezeTextToLabelEv@Base 4.96.0
  _ZN18KSqueezedTextLabel5clearEv@Base 4.96.0
  _ZN18KSqueezedTextLabel7setTextERK7QString@Base 4.96.0
+ _ZN18KSqueezedTextLabel9setIndentEi@Base 5.41.0
+ _ZN18KSqueezedTextLabel9setMarginEi@Base 5.41.0
  _ZN18KSqueezedTextLabelC1EP7QWidget@Base 4.96.0
  _ZN18KSqueezedTextLabelC1ERK7QStringP7QWidget@Base 4.96.0
  _ZN18KSqueezedTextLabelC2EP7QWidget@Base 4.96.0
@@ -1157,7 +1092,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN21KPixmapSequenceWidgetD0Ev@Base 4.96.0
  _ZN21KPixmapSequenceWidgetD1Ev@Base 4.96.0
  _ZN21KPixmapSequenceWidgetD2Ev@Base 4.96.0
- _ZN22KMimeTypeChooserDialog7Private4initEv@Base 4.96.0
  _ZN22KMimeTypeChooserDialog7chooserEv@Base 4.96.0
  _ZN22KMimeTypeChooserDialogC1ERK7QStringS2_RK11QStringListS2_P7QWidget@Base 4.96.0
  _ZN22KMimeTypeChooserDialogC1ERK7QStringS2_RK11QStringListS2_S5_iP7QWidget@Base 4.96.0
@@ -1201,13 +1135,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN24KSplitterCollapserButton11slotClickedEv@Base 5.4.0+git20141119.0013+15.04
  _ZN24KSplitterCollapserButton12setCollapsedEb@Base 5.4.0+git20141119.0013+15.04
  _ZN24KSplitterCollapserButton16staticMetaObjectE@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7Private11updateArrowEv@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7Private13startTimeLineEv@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7Private13updateOpacityEv@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7Private14updatePositionEv@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7Private17widgetEventFilterEP6QEvent@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7PrivateC1EPS_@Base 5.4.0+git20141119.0013+15.04
- _ZN24KSplitterCollapserButton7PrivateC2EPS_@Base 5.4.0+git20141119.0013+15.04
  _ZN24KSplitterCollapserButton7restoreEv@Base 5.4.0+git20141119.0013+15.04
  _ZN24KSplitterCollapserButton8collapseEv@Base 5.4.0+git20141119.0013+15.04
  _ZN24KSplitterCollapserButton9showEventEP10QShowEvent@Base 5.4.0+git20141119.0013+15.04
@@ -1262,8 +1189,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN27KPixmapRegionSelectorWidget23setSelectionAspectRatioEii@Base 4.96.0
  _ZN27KPixmapRegionSelectorWidget27setFreeSelectionAspectRatioEv@Base 4.96.0
  _ZN27KPixmapRegionSelectorWidget6rotateENS_15RotateDirectionE@Base 4.96.0
- _ZN27KPixmapRegionSelectorWidget7Private12updatePixmapEv@Base 4.96.0
- _ZN27KPixmapRegionSelectorWidget7Private22calcSelectionRectangleERK6QPointS3_@Base 4.96.0
  _ZN27KPixmapRegionSelectorWidget9setPixmapERK7QPixmap@Base 4.96.0
  _ZN27KPixmapRegionSelectorWidgetC1EP7QWidget@Base 4.96.0
  _ZN27KPixmapRegionSelectorWidgetC2EP7QWidget@Base 4.96.0
@@ -1279,11 +1204,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZN29KPixmapSequenceOverlayPainter16staticMetaObjectE@Base 4.96.0
  _ZN29KPixmapSequenceOverlayPainter4stopEv@Base 4.96.0
  _ZN29KPixmapSequenceOverlayPainter5startEv@Base 4.96.0
- _ZN29KPixmapSequenceOverlayPainter7Private10_k_timeoutEv@Base 4.96.0
- _ZN29KPixmapSequenceOverlayPainter7Private10paintFrameEv@Base 4.96.0
- _ZN29KPixmapSequenceOverlayPainter7Private10pixmapRectEv@Base 4.96.0
- _ZN29KPixmapSequenceOverlayPainter7Private4initEPS_@Base 4.96.0
- _ZN29KPixmapSequenceOverlayPainter7Private8sequenceEv@Base 4.96.0
  _ZN29KPixmapSequenceOverlayPainter7setRectERK5QRect@Base 4.96.0
  _ZN29KPixmapSequenceOverlayPainter9setOffsetERK6QPoint@Base 4.96.0
  _ZN29KPixmapSequenceOverlayPainter9setWidgetEP7QWidget@Base 4.96.0
@@ -1518,7 +1438,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK12KColorButton10metaObjectEv@Base 4.96.0
  _ZNK12KColorButton12defaultColorEv@Base 4.96.0
  _ZNK12KColorButton15minimumSizeHintEv@Base 4.96.0
- _ZNK12KColorButton19KColorButtonPrivate15initStyleOptionEP18QStyleOptionButton@Base 4.96.0
  _ZNK12KColorButton21isAlphaChannelEnabledEv@Base 4.96.0
  _ZNK12KColorButton5colorEv@Base 4.96.0
  _ZNK12KColorButton8sizeHintEv@Base 4.96.0
@@ -1635,7 +1554,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK14KRatingPainter9isEnabledEv@Base 4.96.0
  _ZNK14KRatingPainter9maxRatingEv@Base 4.96.0
  _ZNK14KToolTipWidget10metaObjectEv@Base 5.35.0
- _ZNK14KToolTipWidget21KToolTipWidgetPrivate11centerBelowERK5QRectP7QScreen@Base 5.35.0
  _ZNK14KToolTipWidget9hideDelayEv@Base 5.35.0
  _ZNK15KActionSelector10metaObjectEv@Base 4.96.0
  _ZNK15KActionSelector13selectedLabelEv@Base 4.96.0
@@ -1753,7 +1671,9 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK18KNewPasswordWidget28passwordStrengthWarningLevelEv@Base 5.16.0
  _ZNK18KNewPasswordWidget30isPasswordStrengthMeterVisibleEv@Base 5.16.0
  _ZNK18KNewPasswordWidget8passwordEv@Base 5.16.0
+ _ZNK18KSqueezedTextLabel10isSqueezedEv@Base 5.41.0
  _ZNK18KSqueezedTextLabel10metaObjectEv@Base 4.96.0
+ _ZNK18KSqueezedTextLabel12contentsRectEv@Base 5.41.0
  _ZNK18KSqueezedTextLabel13textElideModeEv@Base 4.96.0
  _ZNK18KSqueezedTextLabel15minimumSizeHintEv@Base 4.96.0
  _ZNK18KSqueezedTextLabel8fullTextEv@Base 4.96.0
@@ -1787,8 +1707,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZNK24KDragWidgetDecoratorBase15decoratedWidgetEv@Base 4.96.0
  _ZNK24KSplitterCollapserButton10metaObjectEv@Base 5.4.0+git20141119.0013+15.04
  _ZNK24KSplitterCollapserButton17isWidgetCollapsedEv@Base 5.4.0+git20141119.0013+15.04
- _ZNK24KSplitterCollapserButton7Private10isVerticalEv@Base 5.4.0+git20141119.0013+15.04
- _ZNK24KSplitterCollapserButton7Private17isWidgetCollapsedEv@Base 5.4.0+git20141119.0013+15.04
  _ZNK24KSplitterCollapserButton8sizeHintEv@Base 5.4.0+git20141119.0013+15.04
  _ZNK24KViewStateMaintainerBase10metaObjectEv@Base 4.96.0
  _ZNK24KViewStateMaintainerBase14selectionModelEv@Base 4.96.0
@@ -1926,7 +1844,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTI9KPageView@Base 4.96.0
  _ZTI9KSelector@Base 4.96.0
  _ZTI9KUrlLabel@Base 4.96.0
- _ZTIN11KPopupFrame18KPopupFramePrivate19OutsideClickCatcherE@Base 4.96.0
  _ZTIN15KEditListWidget12CustomEditorE@Base 4.96.0
  _ZTS10KPageModel@Base 4.96.0
  _ZTS10KSeparator@Base 4.96.0
@@ -1991,7 +1908,6 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTS9KPageView@Base 4.96.0
  _ZTS9KSelector@Base 4.96.0
  _ZTS9KUrlLabel@Base 4.96.0
- _ZTSN11KPopupFrame18KPopupFramePrivate19OutsideClickCatcherE@Base 4.96.0
  _ZTSN15KEditListWidget12CustomEditorE@Base 4.96.0
  _ZTV10KPageModel@Base 4.96.0
  _ZTV10KSeparator@Base 4.96.0
@@ -2056,12 +1972,7 @@ libKF5WidgetsAddons.so.5 libkf5widgetsaddons5 #MINVER#
  _ZTV9KPageView@Base 4.96.0
  _ZTV9KSelector@Base 4.96.0
  _ZTV9KUrlLabel@Base 4.96.0
- _ZTVN11KPopupFrame18KPopupFramePrivate19OutsideClickCatcherE@Base 4.96.0
  _ZTVN15KEditListWidget12CustomEditorE@Base 4.96.0
- _ZZZN23KToggleFullScreenAction7Private18updateTextsAndIconEvENKUlvE0_clEvE15qstring_literal@Base 4.96.0
- _ZZZN23KToggleFullScreenAction7Private18updateTextsAndIconEvENKUlvE_clEvE15qstring_literal@Base 4.96.0
- _ZZZNK12KTitleWidget7Private14textStyleSheetEvENKUlvE_clEvE15qstring_literal@Base 4.96.0
- _ZZZNK12KTitleWidget7Private17commentStyleSheetEvENKUlvE_clEvE15qstring_literal@Base 4.96.0
  (c++)"non-virtual thunk to KActionSelector::~KActionSelector()@Base" 4.96.0
  (c++)"non-virtual thunk to KAnimatedButton::~KAnimatedButton()@Base" 4.96.0
  (c++)"non-virtual thunk to KAssistantDialog::~KAssistantDialog()@Base" 4.96.0
